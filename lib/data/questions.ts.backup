@@ -1,0 +1,1537 @@
+// NEET PG 2024 Shift-1 Questions - ACTUAL Previous Year Questions
+// Official NEET PG question paper with solutions
+// Total Questions: 93
+
+import { Question } from './types';
+
+export const sampleQuestions: Question[] = [
+  {
+    id: "neet-pg-2024-1",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "Male not responding to O-2, diagnosis ARDS. What is the role of IL-8 in ARDS?",
+    options: [
+      "Endothelial cell activation",
+      "Requirement of neutrophil",
+      "Macrophage activation",
+      "Promote surfactant production"
+    ],
+    correctAnswer: 1,
+    explanation: "✅ ANSWER: **Requirement of neutrophil (Option B)**\n\n🔬 DETAILED EXPLANATION:\n\n**Acute Respiratory Distress Syndrome (ARDS)** is characterized by acute onset of **bilateral pulmonary infiltrates** with severe **hypoxemia** that is **refractory to oxygen therapy**.\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📌 ROLE OF IL-8 IN ARDS:\n\n**Interleukin-8 (IL-8)**, also known as **CXCL8**, is a potent **neutrophil chemoattractant** and one of the most important cytokines in ARDS pathogenesis.\n\n**PRIMARY FUNCTION OF IL-8:**\n\n• IL-8 is a **chemokine** specifically responsible for **neutrophil recruitment and chemotaxis** ⭐\n\n• It binds to **CXCR1 and CXCR2 receptors** on neutrophils\n\n• This binding triggers **neutrophil migration** from the bloodstream into the **alveolar space**\n\n• **Neutrophil accumulation** in the lungs is a **HALLMARK of ARDS** 🎯\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡ PATHOPHYSIOLOGY CASCADE:\n\n**1.** Initial insult (**sepsis, trauma, pneumonia, aspiration**) triggers inflammatory response\n\n**2.** Alveolar macrophages and epithelial cells **release IL-8**\n\n**3.** IL-8 acts as a **potent chemoattractant** for neutrophils ⭐\n\n**4.** **Massive neutrophil infiltration** occurs in lung tissue\n\n**5.** Activated neutrophils release:\n   → **Proteases** (elastase, collagenase)\n   → **Reactive oxygen species (ROS)**\n   → **Inflammatory mediators**\n\n**6.** These substances cause:\n   → **Endothelial injury**\n   → **Increased capillary permeability** ⭐\n   → **Alveolar damage**\n   → **Protein-rich edema** fluid accumulation\n\n**7.** Result: **Impaired gas exchange** and **respiratory failure**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❌ WHY OTHER OPTIONS ARE INCORRECT:\n\n• **Endothelial cell activation**: This is done by **TNF-α and IL-1**, NOT primarily IL-8\n\n• **Macrophage activation**: This is mediated by **IFN-γ and GM-CSF**\n\n• **Promote surfactant production**: IL-8 does **NOT** promote surfactant; ARDS actually has **surfactant dysfunction**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🎯 KEY CONCEPT FOR EXAM:\n\n**IL-8 = THE MAJOR NEUTROPHIL CHEMOATTRACTANT IN ARDS** ⭐⭐⭐\n\nElevated **IL-8 levels in bronchoalveolar lavage (BAL) fluid** correlate with:\n• Disease severity\n• Poor prognosis\n• Mortality\n\nStudies show that **blocking IL-8** or neutrophil migration can reduce ARDS severity in experimental models.\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💡 CLINICAL CORRELATION:\n\nPatients with ARDS have **markedly elevated IL-8 levels** in their:\n• Bronchoalveolar lavage (BAL) fluid\n• Serum\n\nThe degree of **neutrophil infiltration** (and thus IL-8 activity) directly correlates with:\n• Severity of **hypoxemia** (P/F ratio)\n• **Mortality** rate",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-2",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "A patient presents with the finding as shown, What is the best investigation for\nWilson’s disease?",
+    options: [
+      "Urine Copper",
+      "Hepatic copper",
+      "S. Ceruloplasmin",
+      "MRI Brain"
+    ],
+    correctAnswer: 1,
+    explanation: "✅ ANSWER: **Hepatic copper (Option B)**\n\n🔬 DETAILED EXPLANATION:\n\n**Wilson's disease** (hepatolenticular degeneration) is an **autosomal recessive disorder** of copper metabolism caused by mutations in the **ATP7B gene** on **chromosome 13**.\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📌 PATHOPHYSIOLOGY:\n\n**NORMAL COPPER METABOLISM:**\n\n• Dietary copper absorbed in **duodenum and jejunum**\n\n• Transported to **liver** bound to albumin\n\n• In hepatocytes, copper is incorporated into **ceruloplasmin** by **ATP7B protein**\n\n• Excess copper **excreted in bile** (main excretory pathway)\n\n• Ceruloplasmin-bound copper circulates in blood\n\n**WILSON'S DISEASE (ATP7B defect):**\n\n• **Defective ATP7B** → Cannot incorporate copper into ceruloplasmin\n\n• **Defective biliary copper excretion** ⭐\n\n• Copper accumulates in **LIVER FIRST** (primary site) 🎯\n\n• Eventually overflows to other organs:\n  → **Brain** (basal ganglia, putamen)\n  → **Cornea** (Kayser-Fleischer rings)\n  → **Kidneys** (Fanconi syndrome)\n  → **Heart** (cardiomyopathy)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🎯 DIAGNOSTIC INVESTIGATIONS:\n\n★ **HEPATIC COPPER CONTENT (GOLD STANDARD)** ⭐⭐⭐\n\n• Normal: **<50 μg/g** dry weight\n\n• Wilson's: **>250 μg/g** dry weight 🎯\n\n• **MOST SPECIFIC and DEFINITIVE test**\n\n• **Liver biopsy** with quantitative copper measurement\n\n• Direct measurement of copper accumulation in **primary affected organ**\n\n**Why it's the BEST:**\n\n→ **Directly measures pathology at source**\n\n→ **Highest sensitivity and specificity**\n\n→ **Not affected by acute phase reactions**\n\n→ **Confirms diagnosis definitively**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📋 OTHER INVESTIGATIONS (Comparison):\n\n• **SERUM CERULOPLASMIN:**\n  → **Decreased (<20 mg/dL)** in 95% cases\n  → Can be **normal in 5%** of Wilson's disease ⚠️\n  → Can be low in other conditions (malnutrition, nephrotic syndrome)\n  → Good **screening test** but NOT diagnostic\n\n• **24-HOUR URINARY COPPER:**\n  → **Elevated (>100 μg/24hr)**, normal <40\n  → Helpful but **not specific**\n  → Can be elevated in other cholestatic disorders\n  → Good for **monitoring treatment**\n\n• **KAYSER-FLEISCHER RINGS:**\n  → Present in **95% with neurological** Wilson's\n  → Only **50% in purely hepatic** cases ⚠️\n  → Detected by **slit-lamp examination**\n  → Caused by copper deposition in **Descemet's membrane**\n  → Highly specific but **not always present**\n\n• **MRI BRAIN:**\n  → **T2 hyperintensities** in basal ganglia\n  → **\"Face of giant panda\" sign** in midbrain\n  → Only abnormal in **neurological Wilson's**\n  → **Not useful** for early/hepatic disease\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🔍 CLINICAL PRESENTATIONS:\n\n**1. HEPATIC (40-50%):** Age 5-35 years\n   → **Acute hepatitis**\n   → **Chronic hepatitis** → Cirrhosis\n   → **Fulminant hepatic failure**\n\n**2. NEUROLOGICAL (40-50%):** Age 20-30 years\n   → **Tremors** (wing-beating)\n   → **Dysarthria**\n   → **Dystonia, rigidity**\n   → **Parkinsonism**\n\n**3. PSYCHIATRIC (10-20%):**\n   → **Depression**\n   → **Personality changes**\n   → **Psychosis**\n\n**4. OTHER:**\n   → **Hemolytic anemia** (Coombs negative)\n   → **Renal tubular acidosis**\n   → **Osteoporosis**\n   → **Cardiomyopathy**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💊 TREATMENT:\n\n• **Copper chelators:**\n  → **D-penicillamine** (first-line) ⭐\n  → **Trientine** (if intolerant)\n\n• **Zinc salts** (maintenance therapy)\n\n• **Low copper diet** (avoid shellfish, nuts, chocolate)\n\n• **Liver transplant** (fulminant cases)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💡 KEY POINT FOR EXAM:\n\n**HEPATIC COPPER >250 μg/g = GOLD STANDARD** ⭐⭐⭐\n\nWhy? Because it **directly measures the PRIMARY pathology** - copper accumulation in the **LIVER**, which is the **FIRST and MOST affected organ** in Wilson's disease.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page2_img4.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-3",
+    subjectId: "pathology",
+    chapterId: "neet-pg-2024",
+    question: "Which tumor is positive for TTF-1?",
+    options: [
+      "Squamous Cell Carcinoma (Sq)",
+      "Small Cell Carcinoma (Small)",
+      "Adenocarcinoma (Adeno Ca)",
+      "Carcinoid"
+    ],
+    correctAnswer: 2,
+    explanation: "✅ ANSWER: **Adenocarcinoma (Option C)**\n\n🔬 DETAILED EXPLANATION:\n\n**TTF-1 (Thyroid Transcription Factor-1)**, also known as **NKX2-1**, is a **nuclear transcription factor** that serves as a critical **immunohistochemical marker** in the diagnosis of lung tumors.\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📌 TTF-1 EXPRESSION IN LUNG TUMORS:\n\n★ **ADENOCARCINOMA** ⭐⭐⭐ (CORRECT ANSWER)\n  → TTF-1 positive in **75-80%** of cases\n  → **MOST COMMON TTF-1 positive tumor**\n  → Strong nuclear staining pattern\n  → Used to differentiate from other primaries\n\n• **Small Cell Lung Carcinoma (SCLC)**\n  → TTF-1 positive in **85-90%** of cases\n  → Also strongly positive but less common tumor\n\n• **Squamous Cell Carcinoma**\n  → TTF-1 **NEGATIVE** in >95% of cases\n  → Uses **p40/p63** markers instead\n\n• **Large Cell Carcinoma**\n  → TTF-1 positive in only **10-20%**\n  → Variable and unreliable\n\n• **Carcinoid Tumors**\n  → TTF-1 **usually NEGATIVE**\n  → Rare exceptions\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🎯 IMMUNOHISTOCHEMISTRY PANEL:\n\n**ADENOCARCINOMA Profile:**\n\n✅ **TTF-1 (+)** - Most specific marker ⭐\n✅ **Napsin A (+)** - 80% sensitivity\n✅ **CK7 (+)** - Broad epithelial marker\n✅ **PAS (+)** - Mucin production\n❌ **CK20 (−)** - Rules out GI origin\n❌ **p40/p63 (−)** - Rules out squamous\n\n**SQUAMOUS CELL CARCINOMA Profile:**\n\n❌ **TTF-1 (−)** - Key difference!\n✅ **p40/p63 (+)** - Most specific for squamous ⭐\n✅ **CK5/6 (+)** - Squamous marker\n✅ **p16 (+/−)** - Variable\n❌ **Napsin A (−)** - Absent\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🔬 CLINICAL SIGNIFICANCE:\n\n**TTF-1 is POSITIVE in:**\n\n**1. LUNG:**\n• **Primary lung adenocarcinoma** (75-80%) ⭐⭐⭐\n• **Small cell lung cancer** (85-90%)\n• Expressed in type II pneumocytes\n\n**2. THYROID:**\n• **Thyroid follicular cells** (normal and neoplastic)\n• Papillary thyroid carcinoma\n• Follicular thyroid carcinoma\n\n**Why this matters:**\n→ Helps distinguish **PRIMARY lung adenocarcinoma** from metastases\n→ **Metastatic adenocarcinoma** from breast, colon, pancreas are TTF-1 **NEGATIVE**\n→ If lung mass is TTF-1+, likely **PRIMARY** lung cancer\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🎯 DIFFERENTIAL DIAGNOSIS:\n\n**TTF-1 Positive Lung Mass:**\n• Primary lung adenocarcinoma ⭐\n• Small cell lung cancer\n• Metastatic thyroid cancer (rare)\n\n**TTF-1 Negative Lung Mass:**\n• Squamous cell carcinoma\n• Metastatic adenocarcinoma (breast, GI, etc.)\n• Large cell carcinoma (mostly)\n• Mesothelioma\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💡 KEY POINT FOR EXAM:\n\n**TTF-1 = ADENOCARCINOMA OF LUNG** ⭐⭐⭐\n\n**Remember:** \"**T**hyroid and **T**horacic (lung) **F**actor-**1**\"\n\n• Most sensitive and specific marker for **primary lung adenocarcinoma**\n• Helps differentiate **primary vs metastatic** disease\n• **Nuclear staining** pattern (transcription factor)\n• Combined with **Napsin A** for maximum specificity",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-4",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "Vitamin to be supplemented after gastrectomy?",
+    options: [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin B12",
+      "Vitamin D"
+    ],
+    correctAnswer: 2,
+    explanation: "✅ ANSWER: **Vitamin B12 (Option C)**\n\n🔬 DETAILED EXPLANATION:\n\nAfter **gastrectomy**, **Vitamin B12 supplementation** is **MANDATORY and LIFELONG** due to loss of **intrinsic factor (IF)** production.\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📌 NORMAL B12 ABSORPTION:\n\n**1. DIETARY B12 (Cobalamin)**\n   → Found in meat, fish, dairy, eggs\n\n**2. STOMACH** 🎯\n   → **Gastric acid** releases B12 from proteins\n   → **Parietal cells** secrete **Intrinsic Factor (IF)** ⭐⭐⭐\n   → **IF binds to B12** forming **B12-IF complex**\n\n**3. DUODENUM & JEJUNUM**\n   → B12-IF complex remains stable\n\n**4. TERMINAL ILEUM**\n   → **Cubam receptors** bind B12-IF complex\n   → B12 absorbed into blood\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚠️ POST-GASTRECTOMY:\n\n**NO STOMACH** → ❌ **No Parietal Cells**\n\n   ↓\n\n❌ **No Intrinsic Factor**\n\n   ↓\n\n❌ **No B12 Absorption** (terminal ileum needs B12-IF complex)\n\n   ↓\n\n**MEGALOBLASTIC ANEMIA** (develops in 2-5 years)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💊 POST-GASTRECTOMY DEFICIENCIES:\n\n**★★★ VITAMIN B12** ⭐⭐⭐ **(MOST IMPORTANT)**\n\n• **Mechanism:** No intrinsic factor\n• **Time:** 2-5 years (after stores deplete)\n• **Consequences:**\n  → **Megaloblastic anemia** (macrocytic)\n  → **Neurological:** Subacute combined degeneration\n  → **Peripheral neuropathy**\n  → **Cognitive impairment**\n• **Treatment:** **IM B12** 1000 μg monthly (lifelong) ⭐\n\n**★★ IRON**\n• **Mechanism:** ↓ Gastric acid, rapid emptying\n• **Result:** Microcytic anemia\n\n**★ FOLATE**\n• Decreased intake\n\n**★ CALCIUM & VITAMIN D**\n• Malabsorption → Osteoporosis\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🎯 WHY OTHER OPTIONS WRONG:\n\n❌ **Vitamin A:** Not specifically affected, liver stores last years\n\n❌ **Vitamin C:** Absorbed throughout small intestine, doesn't need stomach\n\n❌ **Vitamin D:** While ↓ absorption occurs, **B12 is MORE CRITICAL and INEVITABLE**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💡 KEY POINT FOR EXAM:\n\n**POST-GASTRECTOMY = LIFELONG B12 MANDATORY** ⭐⭐⭐\n\n**Remember:** \"**No Stomach, No IF, No B12** → Must give **B12 shots forever!**\"\n\n• **Parietal cells** (stomach) produce **IF**\n• **IF essential** for B12 absorption in **terminal ileum**\n• Start supplementation **immediately** (don't wait!)",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-6",
+    subjectId: "pathology",
+    chapterId: "neet-pg-2024",
+    question: "10-year-old male presents with cervical lymphadenopathy, Surface Ig+, CD34-,\nCD5-, CD23-, Tdt-, CD10+, CD19+:",
+    options: [
+      "Burkitt’s Lymphoma",
+      "Diffuse Large B-cell Lymphoma (DLBCL)",
+      "Anaplastic Large Cell Lymphoma (ALCL)",
+      "B-cell Acute Lymphoblastic Leukemia (B-ALL)"
+    ],
+    correctAnswer: 0,
+    explanation: "✅ ANSWER: **Burkitt's Lymphoma (Option A)**\n\n🔬 DETAILED EXPLANATION:\n\n**Burkitt's Lymphoma** is a **highly aggressive B-cell non-Hodgkin lymphoma** with the **HIGHEST proliferation rate** (Ki-67 >95%) among all lymphomas.\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📌 IMMUNOPHENOTYPING ANALYSIS:\n\n**GIVEN MARKERS:**\n\n• **Surface Ig (+)** ⭐ = MATURE B-cell\n• **CD34 (−)** ⭐⭐⭐ = NOT immature!\n• **CD5 (−)** = NOT CLL/MCL\n• **CD23 (−)** = NOT CLL\n• **TdT (−)** ⭐⭐⭐ = NOT lymphoblastic!\n• **CD10 (+)** ⭐ = Germinal center origin\n• **CD19 (+)** ⭐ = B-cell marker\n\n**This = MATURE B-CELL LYMPHOMA** 🎯\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🎯 BURKITT'S LYMPHOMA PROFILE:\n\n**POSITIVE MARKERS:**\n\n✅ **Surface Ig (+)** → **MATURE B-cell** (NOT precursor) ⭐⭐⭐\n\n✅ **CD10 (+)** → **Germinal center** origin (CALLA antigen)\n\n✅ **CD19 (+), CD20 (+)** → Pan B-cell markers\n\n✅ **Ki-67 >95%** → **EXTREMELY HIGH proliferation!** ⭐⭐⭐\n\n✅ **BCL-6 (+)** → Germinal center marker\n\n**NEGATIVE MARKERS:**\n\n❌ **CD34 (−)** → **NOT immature/precursor** ⭐⭐⭐\n\n❌ **TdT (−)** → **NOT lymphoblastic** ⭐⭐⭐\n\n❌ **CD5 (−), CD23 (−)** → Rules out CLL, MCL\n\n❌ **BCL-2 (−)** → Unlike follicular lymphoma\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🔬 DIFFERENTIAL DIAGNOSIS:\n\n**1. BURKITT'S LYMPHOMA** ⭐⭐⭐ (CORRECT)\n• Surface Ig **(+)** - Mature\n• CD34 **(−)** - Not immature\n• TdT **(−)** - Not lymphoblastic\n• **Ki-67 >95%** - Fastest growing!\n• Age: 10 years old ✓\n\n**2. B-ALL (B-cell Acute Lymphoblastic Leukemia)** ❌\n• Surface Ig **(−)** - Immature ⚠️\n• CD34 **(+)** - Precursor marker ⚠️\n• TdT **(+)** - Lymphoblastic ⚠️\n• Represents **IMMATURE** B-cells\n\n**3. DLBCL** ❌\n• Similar markers but **Ki-67 60-80%** (lower)\n• Older age group\n\n**4. ALCL** ❌\n• **CD30 (+)**, CD19/CD20 **(−)**\n• T-cell origin\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🧬 MOLECULAR & HISTOLOGY:\n\n**CYTOGENETICS:**\n\n• **t(8;14)** - **MYC translocation** (80%) ⭐⭐⭐\n• t(2;8) or t(8;22) variants (20%)\n• **MYC gene** (chr 8) → **IgH** (chr 14)\n• → **MYC overexpression** → uncontrolled proliferation\n\n**HISTOLOGY:**\n\n• **\"Starry sky\" appearance** ⭐⭐⭐\n  → \"Sky\" = densely packed lymphoma cells\n  → \"Stars\" = tingible body macrophages\n  → Macrophages eating apoptotic tumor cells\n• Medium-sized cells, round nuclei\n• Basophilic cytoplasm\n• High mitotic rate\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🌍 CLINICAL TYPES:\n\n**1. ENDEMIC (African)**\n• **EBV positive** (>95%) ⭐\n• **Jaw/facial bones** involvement\n• Age: 4-7 years\n• Malaria belt association\n\n**2. SPORADIC (Western)**\n• **EBV positive** (15-20%)\n• **Abdomen** (ileocecal) ⭐\n• Presents as abdominal mass\n\n**3. IMMUNODEFICIENCY**\n• HIV/AIDS, post-transplant\n• **EBV positive** (25-40%)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡ CLINICAL FEATURES:\n\n• **Rapidly growing mass** (doubling: 24-48 hrs!)\n• **B symptoms** (fever, night sweats, weight loss)\n• **Cervical lymphadenopathy** (as in this case)\n• **CNS involvement** (25%)\n• **Tumor lysis syndrome** risk ⚠️\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💡 KEY POINT FOR EXAM:\n\n**\"BURKITT'S = MATURE, NOT A BABY!\"** ⭐⭐⭐\n\n• Surface Ig **(+)** = Mature\n• CD34 **(−)** = NOT immature\n• TdT **(−)** = NOT lymphoblastic\n• **Ki-67 >95%** = Fastest lymphoma!\n• **t(8;14) MYC** = Hallmark\n• **\"Starry sky\"** = Diagnostic",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-7",
+    subjectId: "pathology",
+    chapterId: "neet-pg-2024",
+    question: "Most common mutation in Papillary cell carcinoma?",
+    options: [
+      "BRAF V600E",
+      "RET",
+      "MET",
+      "RAS"
+    ],
+    correctAnswer: 0,
+    explanation: "✅ ANSWER: **BRAF V600E (Option A)**\n\n🔬 DETAILED EXPLANATION:\n\n**BRAF V600E** is the **MOST COMMON genetic mutation** in **Papillary Thyroid Carcinoma (PTC)**, occurring in **40-45%** of cases.\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📌 THYROID CANCER MUTATIONS:\n\n**PAPILLARY THYROID CARCINOMA (PTC):** ⭐\n\n• **BRAF V600E: 40-45%** ⭐⭐⭐ (MOST COMMON - ANSWER!)\n• **RET/PTC rearrangement: 20-30%** (radiation-induced, children)\n• **RAS mutation: 10-15%** (follicular variant PTC)\n• **NTRK fusion: 5-10%** (pediatric)\n\n**FOLLICULAR THYROID CARCINOMA (FTC):**\n\n• **RAS mutation: 40-50%**\n• **PAX8/PPARγ rearrangement: 30-40%**\n\n**MEDULLARY THYROID CARCINOMA (MTC):**\n\n• **RET mutation: 98%** (hereditary MEN 2)\n\n**ANAPLASTIC THYROID CARCINOMA (ATC):**\n\n• **p53 mutation** + BRAF/RAS (often evolves from PTC/FTC)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🧬 MAPK/ERK SIGNALING PATHWAY:\n\n**NORMAL CELL:**\n\nGrowth Factor → Receptor → RAS → **RAF (BRAF)** → MEK → ERK\n                                     ↓\n                        Controlled Cell Growth ✓\n\n**BRAF V600E MUTATION:**\n\n✗ **No Growth Factor needed!**\n         ↓\n**BRAF V600E (CONSTITUTIVELY ACTIVE!)** ⚡⚡⚡\n         ↓\n**MEK** ↑↑↑ (Hyperactivated)\n         ↓\n**ERK** ↑↑↑ (Hyperactivated)\n         ↓\n**Uncontrolled Cell Proliferation** → **CANCER!**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🎯 CLINICAL SIGNIFICANCE OF BRAF V600E:\n\n**WORSE PROGNOSIS INDICATORS:** ⚠️\n\n• **More aggressive tumor behavior**\n• **Higher recurrence rate** (2-3x increased)\n• **Increased lymph node metastasis**\n• **Extrathyroidal extension** (invades surrounding tissues)\n• **Higher stage at presentation**\n• **Radioiodine resistance** (↓ NIS expression)\n• **Worse disease-free survival**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💊 THERAPEUTIC IMPLICATIONS:\n\n**TARGETED THERAPY:**\n\n• **Vemurafenib** - BRAF V600E inhibitor ⭐\n• **Dabrafenib** - BRAF inhibitor\n• **Trametinib** - MEK inhibitor (combination therapy)\n\n**Used for:**\n• **Advanced/metastatic PTC**\n• **Radioiodine-refractory disease**\n• **Anaplastic thyroid cancer** with BRAF mutation\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🔍 WHY OTHER OPTIONS ARE WRONG:\n\n❌ **RET:**\n• **2nd most common** in PTC (20-30%)\n• More common in **radiation-induced** PTC\n• **Hallmark** of **Medullary thyroid cancer** (98%)\n\n❌ **MET:**\n• Less common in PTC\n• More associated with **follicular-patterned** tumors\n\n❌ **RAS:**\n• **3rd most common** in PTC (10-15%)\n• More common in **Follicular thyroid carcinoma** (40-50%)\n• Associated with **follicular variant PTC**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📋 PAPILLARY THYROID CARCINOMA FEATURES:\n\n**HISTOLOGY:**\n• **Orphan Annie eye** nuclei (ground glass)\n• **Psammoma bodies** (calcifications)\n• **Nuclear grooves**\n• **Papillary architecture**\n\n**CLINICAL:**\n• **Most common** thyroid cancer (80-85%)\n• **Best prognosis** overall\n• **Lymph node spread** common (40%)\n• **Excellent survival** (>95% at 10 years)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💡 KEY POINT FOR EXAM:\n\n**BRAF V600E = MOST COMMON PTC MUTATION** ⭐⭐⭐\n\n**Remember: \"BRAF = Bad, Risky, Aggressive, Fast PTC!\"**\n\n• **40-45%** of all PTC\n• **V600E** = Valine → Glutamic acid at position 600\n• **Constitutively active** MAPK pathway\n• **Worse prognosis** but **targetable** with Vemurafenib\n• **Always think BRAF** in aggressive PTC!",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-8",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "Renal mass, haematuria, flank pain:",
+    options: [
+      "Clear cell",
+      "Papillary",
+      "Chromophobic",
+      "Belini"
+    ],
+    correctAnswer: 2,
+    explanation: "✅ ANSWER: **Chromophobe RCC (Option C)**\n\n🔬 DETAILED EXPLANATION:\n\n**Renal Cell Carcinoma (RCC)** presenting with the **CLASSIC TRIAD** (renal mass + hematuria + flank pain) can be of various subtypes. **Chromophobe RCC** is associated with the **BEST PROGNOSIS** among all RCC subtypes, making it the correct answer for favorable outcomes.\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📌 RCC SUBTYPES COMPARISON:\n\n**1. CLEAR CELL RCC** (70-80%) ❌\n\n• **MOST COMMON** subtype ⭐⭐⭐\n• **Origin:** Proximal convoluted tubule\n• **Genetics:** **VHL gene** mutation (3p deletion) on chromosome 3\n• **Histology:**\n  → Clear cytoplasm (glycogen, lipid)\n  → Delicate vascular network\n  → \"Chicken-wire\" capillaries\n• **Prognosis:** **Intermediate** (worse than chromophobe)\n• **Metastasis:** Bone, lung, liver, brain\n• **Associated with:** Von Hippel-Lindau syndrome\n\n**2. PAPILLARY RCC** (10-15%) ❌\n\n• **2nd most common** subtype\n• **Origin:** Proximal tubule\n• **Genetics:** MET proto-oncogene, FH (fumarate hydratase)\n• **Histology:**\n  → Papillary/tubular architecture\n  → Foamy macrophages\n  → Psammoma bodies (Type 1)\n• **2 Types:**\n  → **Type 1:** Low grade, **BEST prognosis** within papillary\n  → **Type 2:** High grade, **worse prognosis**\n• **Prognosis:** **Better** than clear cell (but not as good as chromophobe)\n• **Often bilateral** and multifocal\n\n**3. ★ CHROMOPHOBE RCC** ⭐⭐⭐ **(ANSWER - 5% of RCC)**\n\n• **Origin:** Cortical collecting duct (intercalated cells)\n• **Genetics:** **Multiple chromosome losses** (1, 2, 6, 10, 13, 17, 21)\n• **Histology:**\n  → **Large pale cells** with abundant cytoplasm\n  → **\"Plant-like\" cell borders** ⭐ (distinct cell membranes)\n  → **Perinuclear halo** (wrinkled raisinoid nuclei)\n  → **Binucleation** common\n• **Special stains:**\n  → **Hale's colloidal iron (+)** ⭐⭐⭐ (diagnostic!)\n  → **CD117 (c-KIT) positive**\n  → CK7 diffusely positive\n• **Prognosis:** **BEST prognosis** of all RCC subtypes! ⭐⭐⭐\n  → **5-year survival: 80-90%**\n  → **Rarely metastasizes**\n  → **Indolent behavior**\n• **DDx:** Renal oncocytoma (benign, similar Hale's stain)\n\n**4. COLLECTING DUCT (BELLINI) RCC** (1-2%) ❌\n\n• **RAREST** and **MOST AGGRESSIVE** subtype ⚠️⚠️⚠️\n• **Origin:** Medullary collecting ducts\n• **Histology:**\n  → Tubular/glandular pattern\n  → Desmoplastic stroma\n  → High-grade cytology\n• **Location:** **Medullary** (vs others: cortical)\n• **Prognosis:** **WORST** among all RCC subtypes ⚠️\n  → Often **metastatic at presentation**\n  → Very aggressive\n  → **5-year survival: <10%**\n• **Association:** **Sickle cell trait** (medullary carcinoma variant)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🎯 CLASSIC RCC TRIAD:\n\n**1. FLANK PAIN** (40% of patients)\n• Dull, constant ache\n• Due to mass effect/bleeding\n\n**2. HEMATURIA** (40-60% of patients)\n• Gross or microscopic\n• **Painless** hematuria\n• Intermittent\n\n**3. PALPABLE ABDOMINAL/FLANK MASS** (25-45%)\n• Indicates large tumor\n• Late sign\n\n**IMPORTANT:** Only **10-15%** of patients present with **ALL 3 together**! ⚠️\n\nMost patients are **asymptomatic** and diagnosed **incidentally** on imaging (\"incidentaloma\").\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡ OTHER CLINICAL FEATURES:\n\n**SYSTEMIC SYMPTOMS:**\n• **Weight loss**\n• **Fever** (20%)\n• **Night sweats**\n• **Fatigue, anemia**\n• **Varicocele** (especially left-sided, acute onset - due to renal vein invasion)\n\n**PARANEOPLASTIC SYNDROMES (30%):**\n\n• **Polycythemia** (5%)\n  → **Erythropoietin (EPO) ↑** production\n  → Elevated hematocrit\n\n• **Hypercalcemia** (10-20%)\n  → **PTHrP** (parathyroid hormone-related peptide) secretion\n  → Bone resorption\n\n• **Hypertension**\n  → **Renin ↑** secretion\n  → AV fistulas in tumor\n\n• **Stauffer Syndrome**\n  → **Non-metastatic hepatic dysfunction**\n  → ↑ Alkaline phosphatase, ↑ transaminases\n  → Hepatomegaly\n  → Resolves after nephrectomy\n\n• **Cushing syndrome**\n  → **ACTH** secretion (rare)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🔍 DIAGNOSIS:\n\n**IMAGING:**\n\n• **CT abdomen with IV contrast** ⭐ (Gold standard)\n  → **Heterogeneous enhancing mass**\n  → Renal vein/IVC involvement?\n  → Staging (T, N, M)\n\n• **MRI** (if contrast allergy, better for IVC thrombus)\n\n• **Ultrasound** (initial, often incidental finding)\n  → Solid vs cystic\n\n**BIOPSY:**\n• **Usually NOT needed** if imaging typical\n• Reserved for:\n  → Uncertain diagnosis\n  → Small masses (<4 cm)\n  → Metastatic disease (to confirm histology)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💊 STAGING & TREATMENT:\n\n**TNM STAGING:**\n• **T1:** ≤7 cm, confined to kidney\n  → T1a: ≤4 cm\n  → T1b: 4-7 cm\n• **T2:** >7 cm, confined to kidney\n• **T3:** Extension into major veins or perinephric tissue\n• **T4:** Beyond Gerota's fascia\n\n**TREATMENT:**\n\n• **Localized disease:** **Radical nephrectomy** or **partial nephrectomy** ⭐\n• **Metastatic disease:**\n  → **Targeted therapy:** Sunitinib, pazopanib (VEGF inhibitors)\n  → **Immunotherapy:** Nivolumab, pembrolizumab (PD-1 inhibitors)\n  → **mTOR inhibitors:** Everolimus, temsirolimus\n• **RCC is resistant to chemotherapy and radiation!** ⚠️\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📊 PROGNOSIS RANKING (Best → Worst):\n\n**1. Chromophobe RCC** ⭐⭐⭐ **(BEST - 80-90% 5-yr survival)**\n**2. Papillary RCC Type 1** (Good - 75-85%)\n**3. Clear Cell RCC** (Intermediate - 55-70%)\n**4. Papillary RCC Type 2** (Poor - 40-50%)\n**5. Collecting Duct/Bellini** ⚠️ **(WORST - <10%)**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💡 KEY POINTS FOR EXAM:\n\n**CHROMOPHOBE RCC = BEST PROGNOSIS** ⭐⭐⭐\n\n**Remember: \"Chromophobe = CHROME = Shiny BEST prognosis!\"**\n\n• **Chromophobe:** 5%, **BEST prognosis** (80-90% 5-yr survival)\n• **Hale's colloidal iron (+)** = diagnostic for chromophobe\n• **\"Plant-like\" cell borders** = chromophobe\n• **Clear cell:** MOST common (70-80%), VHL gene\n• **Collecting duct (Bellini):** WORST prognosis (<10%)\n• **Classic RCC triad:** Mass + Hematuria + Flank pain (only 10% have all 3!)\n• **Paraneoplastic:** Polycythemia (EPO), Hypercalcemia (PTHrP)\n• **Treatment:** Surgery for localized; targeted/immuno for metastatic",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-9",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "Which disease will show the following mode of inheritance?",
+    options: [
+      "Wiskott",
+      "Wilson",
+      "Prader-Willi",
+      "Achondroplasia"
+    ],
+    correctAnswer: 0,
+    explanation: "✅ ANSWER: **Wiskott-Aldrich Syndrome (Option A)**\n\n🔬 DETAILED EXPLANATION:\n\n**Wiskott-Aldrich Syndrome (WAS)** is an **X-LINKED RECESSIVE** disorder. The pedigree pattern shows **affected males only**, **carrier females**, and **NO male-to-male transmission**, which is pathognomonic for **X-linked recessive inheritance**.\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📌 X-LINKED RECESSIVE INHERITANCE PATTERN:\n\n**CARRIER MOTHER (X^W X) × NORMAL FATHER (XY)**\n\n**Offspring:**\n\n• **25%** - X^W X (Carrier daughter) ✓\n• **25%** - XX (Normal daughter) ✓\n• **25%** - X^W Y (**AFFECTED son**) ⚠️\n• **25%** - XY (Normal son) ✓\n\n**KEY FEATURES OF X-LINKED RECESSIVE:** ⭐⭐⭐\n\n✅ **Affects MALES predominantly** (hemizygous - only 1 X)\n✅ **Females usually carriers** (heterozygous - 2 X chromosomes)\n✅ **NO male-to-male transmission** (fathers give Y to sons, not X)\n✅ **Affected males from carrier mothers**\n✅ **Can skip generations** (carrier females asymptomatic)\n✅ **Maternal uncles/nephews** affected (classic pattern)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🧬 WISKOTT-ALDRICH SYNDROME (WAS):\n\n**GENETICS:**\n• **X-linked recessive** (Xp11.23)\n• **WAS gene** mutation ⭐\n  → Encodes **WASP (WAS protein)**\n  → WASP regulates **actin cytoskeleton** in hematopoietic cells\n  → Defect → abnormal platelet and lymphocyte function\n\n**CLASSIC TRIAD:** ⭐⭐⭐\n\n**1. THROMBOCYTOPENIA** (low platelets)\n• **Small platelets** ⭐⭐⭐ (↓ MPV - mean platelet volume)\n• **<70,000/μL** (often <20,000)\n• Petechiae, purpura, bleeding\n• **Bloody diarrhea** (common in infancy)\n\n**2. ECZEMA**\n• Severe atopic dermatitis\n• Similar to atopic eczema\n• Pruritic, scaling skin lesions\n\n**3. RECURRENT INFECTIONS**\n• **Combined immunodeficiency** (B + T cell defects)\n• **Encapsulated bacteria** (↓ IgM, poor polysaccharide response)\n• **Viral, fungal, opportunistic** infections\n\n**Mnemonic: \"WAITER\"** ⭐\n\n**W** - **Wiskott** (X-linked)\n**A** - **Autoimmunity** (hemolytic anemia, vasculitis)\n**I** - **Infections** (recurrent)\n**T** - **Thrombocytopenia** (**SMALL** platelets!) ⭐⭐⭐\n**E** - **Eczema**\n**R** - **Raised IgE**, **decreased IgM** (↓ response to polysaccharides)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🎯 CLINICAL FEATURES:\n\n**HEMATOLOGIC:**\n• **Thrombocytopenia** with **SMALL platelets** ⭐⭐⭐ (key distinguishing feature!)\n• **Petechiae, purpura** (often at birth)\n• **Bloody diarrhea** (infancy)\n• **Intracranial hemorrhage** (life-threatening)\n\n**IMMUNOLOGIC:**\n• **Recurrent sinopulmonary infections** (Strep pneumoniae, H. influenzae)\n• **Opportunistic infections** (PCP, CMV, HSV)\n• **Progressive T-cell dysfunction**\n• **↓ IgM**, **↑ IgE**, **↑ IgA**, normal/↓ IgG\n\n**DERMATOLOGIC:**\n• **Severe eczema** (face, flexures)\n• Similar to atopic dermatitis\n\n**AUTOIMMUNE (30-40%):**\n• **Autoimmune hemolytic anemia** (AIHA)\n• **Vasculitis** (especially renal)\n• **Inflammatory bowel disease**\n• **Arthritis**\n\n**MALIGNANCY (20%):**\n• **↑ Risk of lymphoma** (EBV-associated)\n• **Leukemia**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🔍 DIAGNOSIS:\n\n**LABORATORY:**\n\n• **Thrombocytopenia** (<70,000/μL)\n• **↓ Mean Platelet Volume (MPV)** ⭐⭐⭐ **(KEY - platelets SMALL!)**\n• **↓ IgM** (poor response to polysaccharides)\n• **↑ IgE, ↑ IgA**\n• **Lymphopenia** (progressive T-cell decline)\n• **Poor antibody response** to polysaccharide antigens\n\n**GENETIC:**\n• **WAS gene sequencing** (confirmatory)\n• **Flow cytometry:** Absent WASP expression\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💊 MANAGEMENT:\n\n**CURATIVE:**\n• **Hematopoietic stem cell transplant (HSCT)** ⭐⭐⭐ **(Only cure!)**\n  → Best if done early (before age 5)\n  → HLA-matched sibling donor ideal\n  → **85-90% cure rate** with matched donor\n\n• **Gene therapy** (experimental, promising)\n\n**SUPPORTIVE:**\n• **IVIG** (Intravenous immunoglobulin)\n• **Prophylactic antibiotics** (PCP prophylaxis with TMP-SMX)\n• **Splenectomy** (if severe thrombocytopenia - but ↑ infection risk!)\n• **Platelet transfusions** (for bleeding)\n• **Avoid aspirin, NSAIDs** (worsen bleeding)\n• **Topical steroids** for eczema\n\n**PROGNOSIS:**\n• **Without HSCT:** Death usually by age 10-15\n• **Causes of death:** Bleeding (ICH), infection, malignancy\n• **With HSCT:** Excellent survival (>85%)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📋 DISEASE COMPARISON (Answer options):\n\n**★ WISKOTT-ALDRICH** ⭐⭐⭐ **(ANSWER)**\n\n• **Inheritance:** **X-linked Recessive** (XLR)\n• **Gene:** WAS gene (WASP)\n• **Clinical:** Thrombocytopenia (**SMALL platelets**) + Eczema + Infections\n• **Immune:** Combined B+T deficiency\n\n**• WILSON'S DISEASE** ❌\n\n• **Inheritance:** **Autosomal Recessive** (AR)\n• **Gene:** ATP7B (copper transporter)\n• **Clinical:** Liver disease + neurological (Kayser-Fleischer rings)\n• **NOT X-linked!**\n\n**• PRADER-WILLI SYNDROME** ❌\n\n• **Inheritance:** **Genomic imprinting** (NOT Mendelian)\n• **Genetics:** **Paternal deletion 15q11-q13** (or maternal UPD 15)\n• **Clinical:** Hyperphagia, obesity, intellectual disability, hypogonadism\n• **NOT X-linked!**\n\n**• ACHONDROPLASIA** ❌\n\n• **Inheritance:** **Autosomal Dominant** (AD)\n• **Gene:** **FGFR3** mutation (chromosome 4)\n• **Clinical:** Short-limb dwarfism, rhizomelic shortening\n• **NOT X-linked!** (affects both males and females equally)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🧬 OTHER X-LINKED RECESSIVE DISORDERS:\n\n**IMMUNODEFICIENCY:**\n• **X-linked agammaglobulinemia (Bruton's)** - BTK gene\n• **X-linked SCID** - IL2RG gene\n• **Chronic granulomatous disease** (X-linked form) - CYBB gene\n• **Wiskott-Aldrich** - WAS gene ⭐\n\n**HEMATOLOGIC:**\n• **Hemophilia A** (Factor VIII deficiency)\n• **Hemophilia B** (Factor IX deficiency)\n• **G6PD deficiency**\n\n**NEUROMUSCULAR:**\n• **Duchenne/Becker muscular dystrophy**\n• **Fragile X syndrome**\n\n**OTHER:**\n• **Color blindness** (red-green)\n• **Hunter syndrome** (MPS II)\n• **Fabry disease**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💡 KEY POINTS FOR EXAM:\n\n**WISKOTT-ALDRICH = X-LINKED RECESSIVE** ⭐⭐⭐\n\n**Remember: \"WAS on X: Boys get WASted!\"**\n\n**\"WAITER\" mnemonic:**\n• **W** - Wiskott (**X-linked**)\n• **A** - Autoimmunity\n• **I** - Infections\n• **T** - **Thrombocytopenia (SMALL platelets!)** ⭐⭐⭐\n• **E** - Eczema\n• **R** - Raised IgE, ↓ IgM\n\n**X-linked recessive pattern:**\n• Affects **MALES** only\n• **NO male-to-male** transmission\n• **Carrier females**\n• **Maternal uncles** affected\n\n**Treatment:** **HSCT = ONLY CURE!**",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-10",
+    subjectId: "pathology",
+    chapterId: "neet-pg-2024",
+    question: "Young male died during exercise. History of similar deaths in sibling, On gross\nmorphology: septal thickening was seen. Most common cause of death?",
+    options: [
+      "Dilated Cardiomyopathy (DCM)",
+      "Restrictive Cardiomyopathy (RCM)",
+      "Hypertrophic Obstructive Cardiomyopathy (HOCM)",
+      "Viral Myocarditis"
+    ],
+    correctAnswer: 2,
+    explanation: "✅ ANSWER: **Hypertrophic Obstructive Cardiomyopathy (HOCM) - Option C**\n\n🔬 DETAILED EXPLANATION:\n\n**HOCM** is the **#1 CAUSE** of **sudden cardiac death in YOUNG ATHLETES** and individuals <35 years old. The case describes classic findings: **young male**, **sudden death during exercise**, **family history**, and **septal thickening** on gross morphology.\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📌 CARDIOMYOPATHY COMPARISON:\n\n**★ HOCM (HCM)** ⭐⭐⭐ **(ANSWER!)**\n\n• **Septum:** ↑↑↑ **THICK** (>15mm) - **Asymmetric Septal Hypertrophy (ASH)**\n• **EF:** ↑ or Normal **(>60-70%)** - Hyperdynamic!\n• **LV Cavity:** ↓ **SMALL** (\"Banana-shaped\")\n• **LV Wall:** Thick\n• **Genetics:** **Autosomal Dominant** (MYH7, MYBPC3)\n• **Key finding:** **LVOT obstruction**\n\n**• DCM (Dilated Cardiomyopathy)** ❌\n\n• Septum: Normal thickness\n• EF: ↓↓ **<40%** (systolic dysfunction)\n• LV Cavity: ↑↑ **LARGE** (dilated)\n• Causes: Alcohol, viral, idiopathic\n• Presents with **heart failure** (not sudden death)\n\n**• RCM (Restrictive Cardiomyopathy)** ❌\n\n• Septum: Normal\n• EF: Normal\n• LV Cavity: Normal size but **RIGID** (stiff)\n• **Diastolic dysfunction** (filling problem)\n• Rare; causes: Amyloidosis, sarcoidosis\n\n**• Viral Myocarditis** ❌\n\n• **Acute inflammation** of myocardium\n• Can cause sudden death but **NO familial pattern**\n• **NO septal thickening** on gross exam\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🫀 PATHOPHYSIOLOGY:\n\n**HOCM Heart Anatomy:**\n\n• **Asymmetric Septal Hypertrophy (ASH)** ⭐⭐⭐\n  → Septum >15mm (normal: 7-11mm)\n  → **Interventricular septum** >> LV free wall\n  → Creates **\"Banana-shaped\" LV cavity**\n\n• **LVOT Obstruction** (Left Ventricular Outflow Tract)\n  → Thick septum **narrows** outflow path\n  → Blood has difficulty exiting LV\n\n• **SAM (Systolic Anterior Motion)** ⭐\n  → Mitral valve **sucked forward** by Venturi effect\n  → Worsens LVOT obstruction\n  → Causes mitral regurgitation\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡ SUDDEN DEATH MECHANISM:\n\n**Normal State:**\n• Some LVOT obstruction at rest\n• Can be asymptomatic\n\n**During EXERCISE:** ⚠️\n\n**1. Increased Contractility**\n   → Septum contracts harder\n   ↓\n\n**2. Decreased LV Volume**\n   → Less blood in chamber\n   ↓\n\n**3. WORSE LVOT Obstruction**\n   → Outflow path even narrower!\n   ↓\n\n**4. Decreased Cardiac Output**\n   → Brain hypoperfusion\n   ↓\n\n**5. Ventricular Arrhythmias**\n   → **VT/VF** (myocardial disarray creates substrate)\n   ↓\n\n**SUDDEN CARDIAC DEATH** ⚡⚡⚡\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🎯 CLINICAL FEATURES:\n\n**TRIAD:**\n\n1. **Family history** of sudden death (AD inheritance)\n2. **Syncope with exercise** (LVOT obstruction worsens)\n3. **Systolic murmur** that ↑ with Valsalva\n\n**SYMPTOMS:**\n\n• **Dyspnea** (exertional)\n• **Angina** (despite normal coronaries - supply-demand mismatch)\n• **Palpitations**\n• **Syncope** (especially with exercise)\n• **Sudden cardiac death** (often FIRST presentation!) ⚠️\n\n**PHYSICAL EXAM:**\n\n• **Harsh systolic murmur** at LLSB\n• **↑ with Valsalva, standing** (↓ preload → ↑ obstruction)\n• **↓ with squatting, handgrip** (↑ afterload → ↓ obstruction)\n• **Double apical impulse** (presystolic impulse)\n• **Jerky carotid pulse** (\"spike and dome\")\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🔬 HISTOPATHOLOGY:\n\n• **Myocardial disarray** ⭐⭐⭐ (Hallmark!)\n  → Disorganized myocyte arrangement\n  → Creates arrhythmia substrate\n\n• **Myocyte hypertrophy**\n• **Interstitial fibrosis**\n• **Thickened intramural coronaries**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🔍 DIAGNOSIS:\n\n**ECHO (Gold Standard):**\n• **Septal thickness >15mm** (or >13mm with family history)\n• **SAM of mitral valve**\n• **LVOT gradient** >30 mmHg\n• Small LV cavity\n\n**ECG:**\n• **LVH** with strain\n• **Deep Q waves** (septal)\n• **T wave inversion**\n\n**Genetic Testing:**\n• **MYH7** (β-myosin heavy chain) - 40%\n• **MYBPC3** (myosin-binding protein C) - 40%\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💊 MANAGEMENT:\n\n**AVOID:**\n• **Competitive sports** ⚠️\n• **Dehydration**\n• **Vasodilators** (nitroglycerin - worsens obstruction!)\n• **Digoxin** (↑ contractility → worse)\n\n**MEDICATIONS:**\n• **Beta-blockers** (metoprolol) - 1st line ⭐\n• **Calcium channel blockers** (verapamil)\n• **Disopyramide** (antiarrhythmic)\n\n**INTERVENTIONS:**\n• **ICD** (Implantable Cardioverter-Defibrillator) - High-risk patients ⭐\n• **Septal myectomy** (surgery)\n• **Alcohol septal ablation**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💡 KEY POINTS FOR EXAM:\n\n**HOCM = #1 CAUSE OF SUDDEN DEATH IN YOUNG ATHLETES** ⭐⭐⭐\n\n**Remember: \"HOCM Hits Obstructing Cardiac Marathon runners\"**\n\n• **Asymmetric Septal Hypertrophy** (>15mm)\n• **Autosomal Dominant** (MYH7, MYBPC3)\n• **Worse with exercise** (↑ obstruction)\n• **Myocardial disarray** = arrhythmia substrate\n• **SAM** = Systolic Anterior Motion\n• Murmur **↑ with Valsalva/standing**\n• **Beta-blockers** = Treatment\n• **ICD** for high-risk patients",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-11",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "Which is not true?",
+    options: [
+      "VWD type 1 is mostly severe in children",
+      "VWD type 3 is mostly severe in children",
+      "VWD type 2 is more related to activity rather than levels",
+      "VWD type 3 has severely low VWD"
+    ],
+    correctAnswer: 0,
+    explanation: "✅ ANSWER: **\"VWD type 1 is mostly severe in children\" - This is INCORRECT (Option A)**\n\n🔬 DETAILED EXPLANATION:\n\n**Von Willebrand Disease (VWD)** is the **MOST COMMON inherited bleeding disorder** (1-2% of population). The statement \"VWD type 1 is mostly severe\" is **FALSE** - **Type 1 is MILD to MODERATE**, NOT severe!\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📌 VWD TYPE CLASSIFICATION:\n\n**★ TYPE 1 (70-80% of VWD)** ⭐⭐⭐ **MOST COMMON**\n\n• **Defect:** **Quantitative** (↓ amount, normal function)\n• **VWF Level:** ↓ **30-50%** of normal\n• **VWF Function:** NORMAL\n• **Severity:** **MILD to MODERATE** ✓ (NOT SEVERE! ❌)\n• **Inheritance:** **Autosomal Dominant** (AD)\n• **Factor VIII:** Mildly ↓ (parallels VWF)\n• **Clinical:** Mild mucocutaneous bleeding\n• **Treatment:** **DDAVP** (desmopressin)\n\n**• TYPE 2 (15-20% of VWD)** - MODERATE\n\n• **Defect:** **Qualitative** (abnormal function) ⭐\n• **VWF Level:** Normal or mildly ↓\n• **VWF Function:** ABNORMAL/DYSFUNCTIONAL\n• **Key point:** **\"Activity > Levels\"** issue ✓ (Option C is TRUE!)\n• **Inheritance:** AD (most subtypes)\n• **4 Subtypes:**\n  **2A** - ↓ high molecular weight multimers\n  **2B** - ↑ affinity for GPIb (gain of function)\n  **2M** - ↓ platelet binding\n  **2N** - ↓ Factor VIII binding (\"Normandy\")\n\n**• TYPE 3 (1-5% of VWD)** - SEVERE ⚠️⚠️⚠️\n\n• **Defect:** **Complete absence** of VWF\n• **VWF Level:** **<5%** (virtually absent) ✓ (Option D is TRUE!)\n• **Severity:** **SEVERE** in children ✓ (Option B is TRUE!)\n• **Inheritance:** **Autosomal Recessive** (AR)\n• **Factor VIII:** Very LOW (<10%)\n• **Clinical:** \n  → Severe mucocutaneous bleeding\n  → **Hemarthrosis** (joint bleeding like hemophilia!)\n  → Muscle hematomas\n  → Life-threatening bleeding\n• **Treatment:** VWF/Factor VIII concentrates (DDAVP doesn't work!)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🎯 ANALYSIS OF ALL OPTIONS:\n\n❌ **Option A: \"VWD type 1 is mostly severe in children\"**\n\n**INCORRECT! Type 1 is MILD to MODERATE, NOT severe!**\n\n• Type 1 has **30-50% VWF** (not absent)\n• Causes **mild mucocutaneous bleeding**\n• Many patients have **minimal symptoms**\n• Can go **undiagnosed** for years\n• **NOT life-threatening** in children\n\n✅ **Option B: \"VWD type 3 is mostly severe in children\"**\n\n**CORRECT!** Type 3 is indeed **SEVERE** in children!\n\n• **<5% VWF** (virtually absent)\n• **Early onset** severe bleeding in infancy/childhood\n• **Life-threatening bleeding** episodes\n• Requires **prophylactic treatment**\n\n✅ **Option C: \"VWD type 2 is more related to activity rather than levels\"**\n\n**CORRECT!** Type 2 is a **QUALITATIVE defect**!\n\n• VWF **levels** may be **normal**\n• VWF **activity** is **decreased** (dysfunctional)\n• **VWF:RCo/VWF:Ag ratio <0.6** (key diagnostic finding)\n• The protein is there, but it **doesn't work properly**\n\n✅ **Option D: \"VWD type 3 has severely low VWD\"**\n\n**CORRECT!** Type 3 has **severely low (<5%) or absent VWF**!\n\n• **Complete or near-complete deficiency**\n• Both VWF antigen and activity virtually absent\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🧬 VON WILLEBRAND FACTOR (VWF) - FUNCTIONS:\n\n**VWF has 2 CRITICAL roles:**\n\n**1. PRIMARY HEMOSTASIS** ⭐\n\n• **Platelet ADHESION** to injured endothelium\n• VWF binds:\n  → **Collagen** (exposed on damaged vessel)\n  → **GPIb** (glycoprotein Ib on platelets)\n• Creates **bridge** for platelet plug formation\n\n**2. SECONDARY HEMOSTASIS** ⭐\n\n• **Carrier protein** for **Factor VIII**\n• **Protects Factor VIII** from rapid degradation\n• Increases Factor VIII **half-life** from minutes → hours\n• Without VWF → Factor VIII ↓↓↓\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💉 LABORATORY FINDINGS:\n\n**TYPE 1:**\n• **VWF:Ag:** ↓ (30-50%)\n• **VWF:RCo:** ↓ (parallel to antigen)\n• **Factor VIII:** Mildly ↓\n• **aPTT:** Normal or mildly ↑\n• **Bleeding time:** Prolonged\n• **Platelet count:** Normal\n\n**TYPE 2:**\n• VWF:Ag: Normal or mildly ↓\n• **VWF:RCo: ↓↓** (disproportionately low)\n• **VWF:RCo/VWF:Ag <0.6** ⭐ (key finding!)\n• Multimer analysis: Abnormal pattern\n\n**TYPE 3:**\n• VWF:Ag: **<5%** (absent)\n• VWF:RCo: Absent\n• **Factor VIII: <10%** (very low)\n• **aPTT:** Markedly prolonged\n• Bleeding time: Very prolonged\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🎯 CLINICAL FEATURES BY TYPE:\n\n**TYPE 1 (MILD):**\n• **Epistaxis** (nosebleeds)\n• **Easy bruising**\n• **Menorrhagia** (heavy periods)\n• Bleeding after dental procedures\n• **NO hemarthrosis** (joint bleeding)\n• **PTT:** Normal or slightly ↑\n\n**TYPE 2 (MODERATE):**\n• **Moderate mucocutaneous bleeding**\n• **Epistaxis** (++)\n• **GI bleeding** (can occur)\n• **Rarely hemarthrosis**\n• **PTT:** Mildly ↑\n\n**TYPE 3 (SEVERE):**\n• **Severe mucocutaneous bleeding** (+++)\n• **Hemarthrosis** ⭐ (like hemophilia A/B!)\n• **Muscle hematomas**\n• **ICH risk** (intracranial hemorrhage)\n• **Life-threatening bleeding**\n• **PTT:** Markedly ↑ (Factor VIII ↓↓↓)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💊 MANAGEMENT:\n\n**TYPE 1:**\n• **DDAVP (Desmopressin)** ⭐⭐⭐ (1st line)\n  → Releases VWF from endothelial stores\n  → ↑ VWF & Factor VIII by 2-5x\n• **Tranexamic acid** (antifibrinolytic)\n\n**TYPE 2:**\n• **DDAVP** (for 2A, 2M, 2N)\n• **AVOID DDAVP in Type 2B** ⚠️ (causes thrombocytopenia!)\n• VWF/Factor VIII concentrates\n\n**TYPE 3:**\n• **VWF/Factor VIII concentrate** (DDAVP doesn't work)\n• **Prophylaxis** may be needed\n• Manage like severe hemophilia\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💡 KEY POINTS FOR EXAM:\n\n**TYPE 1 = MILD, NOT SEVERE!** ⭐⭐⭐ (This is the answer!)\n\n**Remember: \"Type 1 = 1 problem (↓ quantity), Type 2 = 2nd problem (↓ quality), Type 3 = 3x SEVERE!\"**\n\n• **Type 1:** 70-80%, **MILD**, Quantitative, AD\n• **Type 2:** 15-20%, Moderate, **Qualitative (activity issue)**, AD\n• **Type 3:** 1-5%, **SEVERE**, Absent VWF, AR\n• **VWF:** Platelet adhesion + Factor VIII carrier",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-12",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "Child presents with sunlight causing eruptions, diagnosed with a DNA repair\ndefect. Which defect could it be?",
+    options: [
+      "Nucleotide excision",
+      "Base excision repair",
+      "Mismatch repair defect",
+      "Recombination defect"
+    ],
+    correctAnswer: 0,
+    explanation: "✅ ANSWER: **Nucleotide Excision Repair (NER) defect (Option A)**\n\n🔬 DETAILED EXPLANATION:\n\n**Xeroderma Pigmentosum (XP)** is a **rare autosomal recessive** disorder caused by defective **Nucleotide Excision Repair (NER)**. Patients cannot repair **UV-induced DNA damage**, leading to **extreme photosensitivity** and **1000x increased risk** of skin cancers. They are called **\"Children of the Night\"** because they must avoid sunlight.\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📌 DNA REPAIR MECHANISMS:\n\n**★ NUCLEOTIDE EXCISION REPAIR (NER)** ⭐⭐⭐ **(ANSWER!)**\n\n• **Repairs:** **UV-induced damage** (pyrimidine dimers), bulky DNA lesions\n• **Defect causes:** **Xeroderma Pigmentosum (XP)** ⭐\n• **Mechanism:**\n  → Recognizes **bulky DNA adducts** (thymine dimers from UV)\n  → Excises **20-30 nucleotides** around damage\n  → DNA polymerase fills the gap\n  → Ligase seals the nick\n• **Genes involved:** XPA-XPG (7 complementation groups)\n• **Key feature:** Repairs **UV damage specifically**\n\n**• BASE EXCISION REPAIR (BER)** ❌\n\n• **Repairs:** **Oxidative damage**, deamination, alkylation\n• **Removes:** **Single damaged base** (not bulky lesions)\n• **Enzyme:** DNA glycosylase\n• **Defect causes:** MYH-associated polyposis (MAP)\n• **Does NOT repair UV damage**\n\n**• MISMATCH REPAIR (MMR)** ❌\n\n• **Repairs:** **Replication errors** (base-base mismatches)\n• **Corrects:** Wrong nucleotide insertion during DNA replication\n• **Genes:** MLH1, MSH2, MSH6, PMS2\n• **Defect causes:** **Lynch syndrome (HNPCC)** - hereditary colorectal cancer\n• **Clinical:** Colorectal, endometrial cancers (NOT photosensitivity)\n• **Does NOT repair UV damage**\n\n**• RECOMBINATION REPAIR (Homologous Recombination/NHEJ)** ❌\n\n• **Repairs:** **Double-strand breaks (DSBs)**\n• **Genes:** BRCA1, BRCA2, ATM, RAD51\n• **Defect causes:**\n  → **Ataxia-telangiectasia** (ATM defect)\n  → **Bloom syndrome** (BLM helicase defect)\n  → **BRCA mutations** (breast/ovarian cancer)\n• **Does NOT repair UV damage**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n☀️ PATHOPHYSIOLOGY:\n\n**NORMAL SKIN:**\n\n☀️ **UV exposure** (UVB especially)\n  ↓\n**Pyrimidine dimers** form (thymine-thymine bonds)\n  ↓\n**NER system** recognizes damage ✓\n  ↓\n**Excises 20-30 nucleotides** around dimer\n  ↓\n**DNA polymerase fills gap**\n  ↓\n**DNA REPAIRED!** ✓ → Normal skin\n\n**XERODERMA PIGMENTOSUM (NER DEFECT):**\n\n☀️ **UV exposure**\n  ↓\n**Pyrimidine dimers** form\n  ↓\n**NER system DEFECTIVE** ✗ (XP genes mutated)\n  ↓\n**Cannot remove dimers!**\n  ↓\n**DNA damage accumulates** with each sun exposure ⚠️\n  ↓\n┌────────────┴────────────┐\n↓                           ↓\n**MUTATIONS**          **CELL APOPTOSIS**\n↓                           ↓\n**p53, oncogenes**    **Photosensitivity**\n↓                     **Skin atrophy**\n**SKIN CANCERS!** ⚡⚡⚡\n• BCC, SCC, Melanoma\n• **1000x ↑ risk!**\n• **Median age: 8-10 years** (vs 60+ normally)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🎯 CLINICAL FEATURES:\n\n**\"CHILDREN OF THE NIGHT\"** ⭐⭐⭐\n\n**CUTANEOUS (Skin):**\n\n• **Extreme photosensitivity** ⭐ (exaggerated sunburn with minimal UV)\n• **Freckling** on sun-exposed areas (by age 1-2)\n• **Dry, parchment-like skin** (\"xeroderma\" = dry skin)\n• **Hyperpigmentation & hypopigmentation** (poikiloderma)\n• **Actinic keratoses** (pre-malignant)\n• **Skin atrophy**\n\n**MALIGNANCIES:** ⚠️⚠️⚠️\n\n• **Basal Cell Carcinoma (BCC)** - Most common\n• **Squamous Cell Carcinoma (SCC)**\n• **Melanoma** - 2000x ↑ risk!\n• **Median age of 1st skin cancer: 8-10 years** (vs 60+ in general population)\n• **1000x overall ↑ cancer risk**\n\n**OCULAR (Eye):**\n\n• **Photophobia** (painful light sensitivity)\n• **Conjunctivitis, keratitis**\n• **Corneal opacification**\n• **Eyelid tumors** (BCC, SCC)\n• **Progressive vision loss**\n\n**NEUROLOGICAL (20-30% of cases):**\n\n• **De Sanctis-Cacchione syndrome** (XP + neurodegeneration)\n• **Progressive neurodegeneration**\n• **Intellectual disability**\n• **Sensorineural hearing loss**\n• **Ataxia, spasticity**\n• **Peripheral neuropathy**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🔬 DIAGNOSIS:\n\n**CLINICAL:**\n• History of **severe sunburn** with minimal UV exposure\n• **Freckling <2 years** of age on face\n• **Multiple skin cancers** in childhood\n\n**LABORATORY:**\n• **UV sensitivity test** on fibroblasts\n• **Reduced unscheduled DNA synthesis (UDS)** after UV exposure\n• **Complementation analysis** (identify which XP gene)\n• **Genetic testing** (XPA-XPG genes)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💊 MANAGEMENT:\n\n**PRIMARY PREVENTION (MOST IMPORTANT!):**\n\n• **STRICT sun avoidance** ⭐⭐⭐\n  → Stay indoors during daylight\n  → **\"Children of the Night\"** - active only after sunset\n\n• **UV-protective measures:**\n  → **Broad-spectrum sunscreen SPF 50+** (reapply q2h)\n  → **UV-blocking clothing** (long sleeves, pants, hats)\n  → **UV-filtering windows** at home/school/car\n  → **UV-blocking goggles**\n\n**SURVEILLANCE:**\n\n• **Monthly full-body skin exams**\n• **Early detection** of skin cancers\n• **Ophthalmology exams** every 3-6 months\n• **Neurological assessment** if indicated\n\n**TREATMENT:**\n\n• **Early excision** of all suspicious lesions\n• **High-dose oral retinoids** (isotretinoin) - may reduce new cancers\n• **5-FU, imiquimod** (topical for actinic keratoses)\n• **Dermabrasion** for severe actinic damage\n• **Gene therapy** (experimental)\n\n**PROGNOSIS:**\n\n• **Without sun protection:** Life expectancy ~30 years\n• **With strict protection:** Near-normal lifespan possible\n• Death usually from **metastatic melanoma or SCC**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💡 KEY POINTS FOR EXAM:\n\n**XERODERMA PIGMENTOSUM = NER DEFECT** ⭐⭐⭐\n\n**Remember: \"NER fixes UV → XP can't fix UV → Sunlight = Cancer!\"**\n\n**\"Children of the Night\"** - must avoid ALL sunlight!\n\n• **NER defect** (XPA-XPG genes)\n• **Cannot repair UV damage** (pyrimidine dimers)\n• **Extreme photosensitivity** + freckling\n• **1000x ↑ skin cancer risk**\n• **Median age 1st cancer: 8-10 years**\n• **Autosomal recessive**\n• **Treatment:** STRICT sun avoidance",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-13",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "18-year-old male with hepatosplenomegaly, Hb 7 gm percent, LN+, WBC 50K,\nplatelets 30, petechiae, purpura, and fatigue: what is the most appropriate\nmanagement?\n7",
+    options: [
+      "Cytarabine + Iso?",
+      "IVIG x 2 days",
+      "Prednisolone + Vinblastine",
+      "Radiotherapy to LN"
+    ],
+    correctAnswer: 2,
+    explanation: "The presentation is suggestive of a hematological malignancy, likely lymphoma or\nleukemia, with pancytopenia and lymphadenopathy. The most appropriate management\nincludes the use of prednisolone (a steroid) and vinblastine (chemotherapy), which are\ncommonly used in the treatment of lymphomas.\n\n💡 Quick Tip: In cases of hematological malignancy like lymphoma or leukemia, steroids and\nchemotherapy (like vinblastine) are often used as first-line treatments.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-14",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "A baby failed to pass meconium. The structures absent in the disease are absent in\nwhich layer?",
+    options: [
+      "Epithelial",
+      "Submucosa",
+      "Muscular",
+      "Serosa"
+    ],
+    correctAnswer: 1,
+    explanation: "✅ ANSWER: **Submucosa (Option B)**\n\n🔬 DETAILED EXPLANATION:\n\n**Hirschsprung Disease (Congenital Aganglionic Megacolon)** is caused by **absence of ganglion cells** in **BOTH** the **submucosal (Meissner's) plexus** and **myenteric (Auerbach's) plexus**. However, since the question asks which **layer** contains the absent structures, the **submucosa** is the best answer as it's a distinct layer, while the myenteric plexus is located between muscle layers.\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📌 INTESTINAL WALL LAYERS (Inside → Outside):\n\n**1. MUCOSA** ❌\n\n• **Epithelium** (absorptive cells)\n• **Lamina propria** (connective tissue)\n• **Muscularis mucosae** (thin smooth muscle)\n• **In Hirschsprung:** Normal epithelium, NO ganglion cells here\n\n**2. SUBMUCOSA** ⭐⭐⭐ **(ANSWER!)**\n\n• **Connective tissue**\n• **Blood vessels, lymphatics**\n• **Meissner's plexus (submucosal plexus)** ⭐⭐⭐\n  → **Controls secretion, blood flow**\n  → **ABSENT in Hirschsprung!** ✗\n  → Contains **ganglion cells** normally\n\n**3. MUSCULARIS PROPRIA** ❌\n\n• **Inner circular muscle layer**\n• **Auerbach's plexus (myenteric plexus)** ⭐⭐⭐\n  → Located **BETWEEN** the muscle layers (not within submucosa)\n  → **Controls motility, peristalsis**\n  → **ABSENT in Hirschsprung!** ✗\n• **Outer longitudinal muscle layer**\n• Note: Plexus is between layers, not in \"muscular\" layer itself\n\n**4. SUBSEROSA/SEROSA** ❌\n\n• **Connective tissue** (subserosa)\n• **Mesothelium** (serosa)\n• **In Hirschsprung:** Normal, no ganglion cells here\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🧬 PATHOPHYSIOLOGY:\n\n**EMBRYOLOGY:**\n\n• **Neural crest cells** migrate from esophagus → rectum (5-12 weeks)\n• Migration is **craniocaudal** (head → tail direction)\n• **Failure of migration** → No ganglion cells in distal bowel\n• **RET proto-oncogene mutation** (most common) ⭐\n\n**NORMAL COLON:**\n\n**Ganglion cells present** ✓\n  ↓\n**Coordinated peristalsis**\n  ↓\n**Proximal segment contracts**\n  ↓\n**Distal segment RELAXES** ✓\n  ↓\n**Stool passes normally**\n\n**HIRSCHSPRUNG SEGMENT:**\n\n**NO ganglion cells** ✗ (**Aganglionosis**)\n  ↓\n**Loss of inhibitory innervation**\n  ↓\n**Unopposed sympathetic tone**\n  ↓\n**Distal segment SPASTIC** (always contracted) ⚠️\n  ↓\n**NO relaxation!** ✗\n  ↓\n**Functional obstruction**\n  ↓\n**Proximal colon dilates** (Megacolon)\n  ↓\n**Cannot pass stool!**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🎯 CLINICAL FEATURES:\n\n**NEONATAL PRESENTATION (Most common):**\n\n• **Delayed meconium passage >48 hours** ⭐⭐⭐ (RED FLAG!)\n  → 95% of normal babies pass meconium <48 hrs\n  → **90% of Hirschsprung: delayed >48 hrs**\n\n• **Bilious vomiting**\n• **Abdominal distension**\n• **Explosive stool** after rectal exam (relief of obstruction)\n• **Failure to thrive**\n\n**HIRSCHSPRUNG-ASSOCIATED ENTEROCOLITIS (HAEC):** ⚠️⚠️⚠️\n\n• **Life-threatening complication** (30% of cases)\n• **Bacterial overgrowth** + ischemia\n• Presents with:\n  → **Explosive, foul-smelling diarrhea**\n  → **Fever, toxic appearance**\n  → **Abdominal distension, pain**\n  → **Sepsis, shock**\n• **Leading cause of death** in Hirschsprung\n• **Emergency:** Requires immediate decompression + antibiotics\n\n**OLDER CHILDREN:**\n\n• **Chronic severe constipation** (from birth)\n• **Abdominal distension**\n• **Ribbon-like stools**\n• **Failure to thrive**\n• **NO fecal soiling** (vs functional constipation)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📍 EXTENT OF INVOLVEMENT:\n\n**SHORT SEGMENT (80%):**\n• **Rectosigmoid only** (most common) ⭐\n• Better prognosis\n\n**LONG SEGMENT (15-20%):**\n• **Beyond sigmoid colon**\n• More complex surgery\n\n**TOTAL COLONIC (5%):**\n• **Entire colon** affected\n• May involve terminal ileum\n• Worst prognosis\n\n**KEY POINT:** \n• **ALWAYS involves rectum** (starts distally) ⭐⭐⭐\n• Never \"skips\" rectum (unlike Crohn's)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🔍 DIAGNOSIS:\n\n**1. RECTAL BIOPSY** ⭐⭐⭐ **(GOLD STANDARD)**\n\n• **Suction rectal biopsy** (2-3 cm above dentate line)\n\n**Findings:**\n• **Absence of ganglion cells** in submucosa & myenteric plexus ✓\n• **Hypertrophic nerve fibers**\n• **↑ Acetylcholinesterase (AChE) staining** ⭐ (diagnostic!)\n  → Positive AChE stain = Hirschsprung confirmed\n\n**2. CONTRAST ENEMA** (Barium enema)\n\n• **Transition zone** visible ⭐\n  → **Narrow distal segment** (aganglionic)\n  → **Dilated proximal segment** (normal ganglion cells)\n• May see **saw-tooth\" irregular mucosa**\n• **Late films (24h):** Retained contrast in colon\n\n**3. ANORECTAL MANOMETRY**\n\n• **Absence of rectoanal inhibitory reflex (RAIR)** ⭐\n• Normal: Rectal distension → internal sphincter relaxes\n• Hirschsprung: **NO relaxation!** (no ganglion cells)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🧬 GENETICS & ASSOCIATIONS:\n\n**GENETICS:**\n• **RET proto-oncogene** (chromosome 10) - Most common mutation ⭐\n• **EDNRB** (endothelin receptor B)\n• **Male:Female = 4:1**\n• **Familial risk:** ~4% sibling recurrence\n\n**ASSOCIATED CONDITIONS:**\n• **Down syndrome (Trisomy 21)** ⭐ (10-15% of HD patients)\n• **MEN 2A, MEN 2B** (RET mutations)\n• **Waardenburg syndrome** (hearing loss, heterochromia)\n• **Congenital central hypoventilation (Ondine's curse)**\n• **Cardiac defects** (VSD, ASD)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💊 MANAGEMENT:\n\n**INITIAL MANAGEMENT:**\n\n• **NPO** (nothing by mouth)\n• **NG tube decompression**\n• **IV fluids**\n• **Rectal irrigations** (decompress bowel)\n• **Antibiotics** (if enterocolitis suspected)\n\n**DEFINITIVE TREATMENT:** **SURGERY** ⭐\n\n• **Pull-through procedures:**\n  → **Swenson** (original)\n  → **Duhamel** (most common)\n  → **Soave** (endorectal)\n\n• **Principle:** Resect aganglionic segment + anastomose normal bowel to anus\n\n• **Timing:** \n  → Can be done in **infancy** (single-stage)\n  → Or **delayed** with temporary colostomy\n\n**PROGNOSIS:**\n• **85-90%** have good bowel function\n• **Persistent constipation** (25%)\n• **Fecal incontinence** (10-15%)\n• **Recurrent enterocolitis** (5-10%)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💡 KEY POINTS FOR EXAM:\n\n**HIRSCHSPRUNG = NO GANGLION IN SUBMUCOSA** ⭐⭐⭐\n\n**Remember: \"HD = Hasn't Defecated (>48hrs)\"**\n\n• **Delayed meconium >48 hrs** = RED FLAG!\n• **Absence of ganglion cells** in **Meissner's (submucosa)** + **Auerbach's (myenteric) plexus**\n• **ALWAYS involves rectum** (starts distally)\n• **Diagnosis:** Rectal biopsy (↑ AChE stain, no ganglion cells)\n• **Contrast enema:** Transition zone\n• **Anorectal manometry:** No RAIR\n• **RET gene mutation** (most common)\n• **Association:** Down syndrome (10-15%)\n• **Complication:** HAEC (enterocolitis) - life-threatening!\n• **Treatment:** Surgical pull-through",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-15",
+    subjectId: "anatomy",
+    chapterId: "neet-pg-2024",
+    question: "Muscle responsible for ptosis in Horner syndrome:",
+    options: [
+      "Orbicularis oculi",
+      "Levator palpebrae",
+      "Horner muscle",
+      "Muller’s muscle"
+    ],
+    correctAnswer: 3,
+    explanation: "✅ ANSWER: **Müller's muscle (Option D)**\n\n🔬 DETAILED EXPLANATION:\n\n**Horner's syndrome** results from **disruption of the sympathetic pathway** to the eye. The **mild ptosis (2-3mm)** seen in Horner's is caused by paralysis of **Müller's muscle** (superior tarsal muscle), NOT levator palpebrae superioris.\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📌 EYELID ELEVATION MUSCLES:\n\n**LEVATOR PALPEBRAE SUPERIORIS:** ❌\n\n• **Innervation:** **CN III (Oculomotor nerve)** ⭐\n• **Type:** MAJOR eyelid elevator\n• **Elevation:** **10-12mm** (most of eyelid opening)\n• **Control:** Voluntary (somatic)\n• **Origin:** Lesser wing of sphenoid\n• **Insertion:** Tarsal plate, skin of upper lid\n• **If paralyzed:** **SEVERE ptosis** (complete lid droop) - **CN III palsy**\n\n**★ MÜLLER'S MUSCLE (Superior Tarsal Muscle)** ⭐⭐⭐ **(ANSWER!)**\n\n• **Innervation:** **SYMPATHETIC** nerves ⭐⭐⭐\n• **Type:** MINOR eyelid elevator (smooth muscle)\n• **Elevation:** **2-3mm only** (subtle lift)\n• **Control:** **Involuntary** (autonomic)\n• **Origin:** Undersurface of levator palpebrae\n• **Insertion:** Superior tarsal border\n• **If paralyzed:** **MILD ptosis (2-3mm)** - **Horner's syndrome** ⭐\n\n**ORBICULARIS OCULI:** ❌\n\n• **Function:** **CLOSES** eyelid (NOT opens!)\n• **Innervation:** CN VII (Facial nerve)\n• **If paralyzed:** Cannot close eye (Bell's palsy)\n\n**\"HORNER MUSCLE\":** ❌\n\n• **Does NOT exist!** (Trick option)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🎯 HORNER'S SYNDROME - CLASSIC TRIAD:\n\n**Disruption of Sympathetic Pathway to Eye**\n\n**1. PTOSIS** ⭐ (Mild - **2-3mm drop**)\n• **Müller's muscle** paralyzed\n• Upper lid droops slightly\n• **MILD** ptosis (vs CN III = severe)\n\n**2. MIOSIS** ⭐ (Small pupil)\n• **Dilator pupillae** muscle paralyzed\n• Unopposed **constriction** by parasympathetics\n• Pupil appears **smaller** on affected side\n• **Still reactive to light!** (CN III intact)\n\n**3. ANHIDROSIS** ⭐ (Decreased sweating)\n• **Facial sweat glands** affected\n• **Distribution depends on lesion location:**\n  → Central/Preganglionic: **Entire face** anhidrosis\n  → Postganglionic: **NO anhidrosis** (fibers separate)\n\n**ADDITIONAL SIGNS:**\n\n• **Enophthalmos** (sunken eye - apparent, not true)\n• **Loss of ciliospinal reflex**\n• **Facial flushing** (vasodilation)\n• **Conjunctival injection**\n• **Heterochromia** (if congenital - lighter iris)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n📍 SYMPATHETIC PATHWAY (3-Neuron Chain):\n\n**1ST ORDER NEURON (Central):**\n\n• **Origin:** **Hypothalamus** (posterolateral)\n• **Course:** Brainstem → Cervical spinal cord\n• **Ends:** **C8-T2** (ciliospinal center of Budge)\n\n**Lesion causes:**\n• **Stroke** (lateral medullary - Wallenberg)\n• **MS** (multiple sclerosis)\n• **Brainstem tumor**\n• **Syringomyelia**\n\n**2ND ORDER NEURON (Preganglionic):**\n\n• **Origin:** C8-T2 spinal cord\n• **Course:** \n  → Exits spinal cord\n  → Over **lung apex** ⚠️ (vulnerable!)\n  → Passes **stellate ganglion** (sympathetic chain)\n• **Ends:** **Superior cervical ganglion** (neck)\n\n**Lesion causes:**\n• **Pancoast tumor** ⭐⭐⭐ (lung apex tumor) - Most common!\n• **Thyroid surgery**\n• **Neck trauma/surgery**\n• **Cervical rib**\n• **Thoracic outlet syndrome**\n\n**3RD ORDER NEURON (Postganglionic):**\n\n• **Origin:** Superior cervical ganglion\n• **Course:**\n  → Along **internal carotid artery** ⚠️\n  → Forms **carotid plexus**\n  → Through **cavernous sinus**\n  → To eye via **CN V1** (ophthalmic)\n• **Ends:** Eye structures\n\n**Lesion causes:**\n• **Carotid artery dissection** ⭐⭐⭐ (Most common 3rd order!)\n• **Cavernous sinus thrombosis**\n• **Cluster headache** (transient)\n• **Internal carotid aneurysm**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🔍 CLINICAL LOCALIZATION:\n\n**ANHIDROSIS PATTERN helps localize!**\n\n• **1st or 2nd order lesion:** Anhidrosis of **ENTIRE FACE** ✓\n• **3rd order lesion:** **NO anhidrosis** (sudomotor fibers separate early)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🎯 COMMON CAUSES BY AGE:\n\n**ADULTS:**\n• **Carotid artery dissection** ⭐ (3rd order) - sudden onset with neck/head pain\n• **Pancoast tumor** ⭐ (2nd order) - lung apex, shoulder pain\n• **Iatrogenic** (thyroid/neck surgery)\n• **Cluster headache** (transient)\n\n**CHILDREN:**\n• **Birth trauma** (brachial plexus injury)\n• **Neuroblastoma** (chest/neck)\n• **Congenital** → heterochromia (lighter iris on affected side)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💊 DIAGNOSIS:\n\n**PHARMACOLOGIC TESTING:**\n\n**1. Confirm Horner's:**\n• **Cocaine 4-10%** eye drops\n• Normal eye: Pupil dilates (cocaine blocks NE reuptake)\n• Horner's: **NO dilation** (no NE release)\n\n**2. Localize lesion:**\n• **Apraclonidine 0.5%** drops\n• Horner's eye: **Reverse ptosis** (lid elevation - paradoxical)\n• Can distinguish central/preganglionic from postganglionic\n\n**3. Hydroxyamphetamine test:**\n• **Preganglionic:** Pupil dilates (intact 3rd neuron releases NE)\n• **Postganglionic:** **NO dilation** (no NE stores)\n\n**IMAGING:**\n• **MRI brain/neck:** For 1st/3rd order lesions\n• **CT chest:** For **Pancoast tumor** (2nd order) ⭐\n• **Carotid imaging:** MRA/CTA for dissection\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡ IMPORTANT ASSOCIATIONS:\n\n**Pancoast Tumor + Horner's:**\n• Lung apex tumor\n• **Shoulder pain** radiating down arm\n• **C8-T1 involvement** (hand weakness)\n• **2nd order** Horner's\n\n**Carotid Dissection + Horner's:**\n• **Sudden severe neck/head pain** (\"worst headache\")\n• **Ipsilateral Horner's**\n• **Contralateral hemiparesis** (stroke)\n• **3rd order** Horner's\n\n**Wallenberg Syndrome (Lateral Medullary):**\n• **Ipsilateral Horner's** (1st order)\n• **Ipsilateral ataxia, facial numbness**\n• **Contralateral pain/temp loss** (body)\n• **Dysphagia, dysarthria, vertigo**\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n💡 KEY POINTS FOR EXAM:\n\n**MÜLLER'S MUSCLE = HORNER'S PTOSIS** ⭐⭐⭐\n\n**Remember: \"Müller Makes Minor Movement (2-3mm)\"**\n\n• **Müller's muscle** = **Sympathetic** innervation\n• **Paralyzed in Horner's** → Mild ptosis (2-3mm)\n• **Levator palpebrae** = **CN III** → Severe ptosis if paralyzed\n\n**HORNER'S TRIAD:**\n1. **Ptosis** (2-3mm) - Müller's muscle\n2. **Miosis** (small pupil) - Dilator pupillae\n3. **Anhidrosis** (↓ sweat) - Facial distribution\n\n**TOP CAUSES:**\n• **Pancoast tumor** (2nd order) - chest imaging!\n• **Carotid dissection** (3rd order) - neck pain + stroke\n• **Wallenberg** (1st order) - brainstem signs",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-16",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "A patient presented to the eye OPD after 3 years of cataract surgery. Slit lamp\nfinding was given. What is the likely diagnosis?",
+    options: [
+      "PCO",
+      "Bullous keratopathy",
+      "Phakic glaucoma",
+      "Lens subluxation"
+    ],
+    correctAnswer: 0,
+    explanation: "Post-cataract surgery, the most common complication leading to visual\nimpairment is posterior capsule opacification (PCO), often referred to as secondary cataract. It occurs due to the proliferation of lens epithelial cells on the posterior capsule, leading to\nopacification.\n\n💡 Quick Tip: PCO is a common complication after cataract surgery and can often be treated with a\nY AG laser capsulotomy to restore vision.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page5_img10.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-17",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "Following perimetry image is suggestive of?",
+    options: [
+      "Extension of blind spot",
+      "Arcuate scotoma",
+      "Reinee step defect",
+      "Altitude Anopia"
+    ],
+    correctAnswer: 0,
+    explanation: "The perimetry image shows an extension of the blind spot, which typically results\nfrom conditions like glaucoma or optic nerve head abnormalities, where the visual field\ndefects correspond to the location of the optic disc.\n\n💡 Quick Tip: An extension of the blind spot is often seen in optic nerve-related pathologies, including\nglaucoma.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page5_img11.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-18",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "A patient came with nyctalopia. Rational image given below, what will be the\ndiagnosis?",
+    options: [
+      "Retinitis pigmentosa",
+      "Vitamin A deficiency",
+      "Retinal detachment",
+      "Diabetic retinopathy"
+    ],
+    correctAnswer: 0,
+    explanation: "Nyctalopia, or night blindness, is often associated with retinitis pigmentosa, a\nhereditary retinal degenerative condition. It results from the degeneration of rod cells in the\nretina, which affects night vision.\n\n💡 Quick Tip: Retinitis pigmentosa is a common cause of nyctalopia, often beginning with difficulty\nseeing in low light and progressing to peripheral vision loss.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page6_img13.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-19",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "Patient was shown image A along with image B. Image C was visualised. What is\nthe likely diagnosis?",
+    options: [
+      "Left eye suppression",
+      "Right eye suppression",
+      "Crossed diplopia",
+      "Uncrossed diplopia"
+    ],
+    correctAnswer: 1,
+    explanation: "Right eye suppression is a phenomenon where the visual input from the right eye\nis suppressed, often due to conditions like strabismus or amblyopia. The images presented\nare indicative of this visual suppression mechanism.\n\n💡 Quick Tip: Suppression of one eye’s input is often seen in conditions like strabismus, where the\nbrain ignores input from one eye to prevent double vision.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page6_img14.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-20",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "A patient presents in the eye OPD with this finding. What is the diagnosis?",
+    options: [
+      "Dermoid",
+      "Lipodermoid",
+      "Pterygium",
+      "Papilloma"
+    ],
+    correctAnswer: 0,
+    explanation: "The finding described suggests a dermoid, which is a benign tumor composed of\nectodermal elements, often found in the cornea or conjunctiva. It is usually congenital and\npresents as a yellowish, cystic mass.\n\n💡 Quick Tip: Dermoids are congenital growths that can appear in various locations, including the eye,\nand are often characterized by a cystic mass with skin appendages.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page7_img16.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-21",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "In Wilson’s disease, the best choice of investigation is?",
+    options: [
+      "Serum copper",
+      "Ceruloplasmin",
+      "Hepatic copper estimation",
+      "Urine copper"
+    ],
+    correctAnswer: 1,
+    explanation: "In Wilson’s disease, the best choice of investigation is serum ceruloplasmin, which\nis usually decreased in this condition. Ceruloplasmin is a copper-binding protein, and low\nlevels indicate impaired copper metabolism.\n\n💡 Quick Tip: Serum ceruloplasmin is a key diagnostic marker for Wilson’s disease, and its levels are\noften low due to copper accumulation.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page7_img17.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-22",
+    subjectId: "biochemistry",
+    chapterId: "neet-pg-2024",
+    question: "Clinical scenario about homocystinuria, which vitamin to be supplemented?",
+    options: [
+      "Thiamine",
+      "Vitamin B6",
+      "Biotin",
+      "Pyruvate"
+    ],
+    correctAnswer: 1,
+    explanation: "In homocystinuria, vitamin B6 (pyridoxine) supplementation is commonly used as\nit acts as a cofactor for cystathionine beta-synthase, an enzyme involved in the metabolism of\nhomocysteine. This helps reduce homocysteine levels.\n\n💡 Quick Tip: Vitamin B6 is crucial in managing homocystinuria, as it supports enzyme activity that\nhelps convert homocysteine to cysteine.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page8_img19.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-23",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "A 2-week-old baby presented with vomiting, acidosis, early cataract. Which of the\nfollowing enzyme is defective?",
+    options: [
+      "Galactose-1-phosphate uridyl transferase",
+      "Galactokinase",
+      "Hexokinase",
+      "Aldol reductase"
+    ],
+    correctAnswer: 0,
+    explanation: "The symptoms of vomiting, acidosis, and early cataract in a 2-week-old baby are\nsuggestive of galactosemia. The enzyme defect in galactosemia is typically due to a\ndeficiency in galactose-1-phosphate uridyl transferase, which is responsible for metabolizing\ngalactose.\n\n💡 Quick Tip: In galactosemia, the defect in galactose-1-phosphate uridyl transferase leads to the ac-\ncumulation of galactose and its metabolites, which cause cataracts, liver damage, and\nother systemic symptoms.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page9_img21.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-24",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "Diagnosis of MRI image:",
+    options: [
+      "Arnold-Chiari malformation",
+      "Corpus callosal agenesis",
+      "Vein of Galen malformation",
+      "Dandy-Walker malformation"
+    ],
+    correctAnswer: 0,
+    explanation: "Arnold-Chiari malformation is characterized by the herniation of the cerebellar\ntonsils into the spinal canal, which can be visualized on MRI. The diagnosis is based on the\ncharacteristic appearance seen in imaging studies.\n\n💡 Quick Tip: Arnold-Chiari malformation is associated with hydrocephalus and syringomyelia and is\ndiagnosed through MRI imaging.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page10_img23.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-25",
+    subjectId: "pharmacology",
+    chapterId: "neet-pg-2024",
+    question: "A 76-year-old elderly patient presents in a confused state. He is on antihypertensive\nmedication and on aspirin due to a previous heart attack. There is a minor trauma due\nto fall from a chair 3 weeks back. NCCT is done and shows the following. Diagnosis?",
+    options: [
+      "SAH (Subarachnoid Hemorrhage)",
+      "EDH (Epidural Hematoma)",
+      "Normal Study",
+      "Chronic SDH (Subdural Hematoma)"
+    ],
+    correctAnswer: 3,
+    explanation: "The presence of confusion in an elderly patient with a history of minor trauma and\nchronic symptoms is most consistent with chronic subdural hematoma (SDH). The imaging\ntypically shows a crescent-shaped, hypodense area, which evolves over time, indicating a\nchronic bleed.\n\n💡 Quick Tip: Chronic SDH often presents with subtle symptoms such as confusion and is typically\nseen in elderly patients after minor head trauma.\n14",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page10_img24.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-26",
+    subjectId: "pathology",
+    chapterId: "neet-pg-2024",
+    question: "Diagnosis of MRCP image:",
+    options: [
+      "GB Stone (Gallbladder Stone)",
+      "Cholangiocarcinoma",
+      "Choledochal Cyst",
+      "Gall and Blood Cancer"
+    ],
+    correctAnswer: 1,
+    explanation: "Cholangiocarcinoma is a malignancy of the bile ducts, which can be visualized on\nMRCP (Magnetic Resonance Cholangiopancreatography) as a mass or stricture in the bile\nduct. This diagnosis is supported by the imaging findings.\n\n💡 Quick Tip: Cholangiocarcinoma is diagnosed by imaging modalities such as MRCP, which helps\nvisualize bile duct masses or strictures.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-27",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "A 35-year-old nullipara female presented with dull aching pain with exacerbation\nduring the menstrual cycle. USG reveals a heterogeneous mass in the right adnexa.\nMRI reveals a 4 x 5 cm T1 hyperintense mass with no suppression on fat-saturated\nimages. T2-weighted images show low signal with dark shading. Diagnosis?",
+    options: [
+      "Dermoid cyst",
+      "Endometrioma",
+      "Ovarian cancer",
+      "Para-Ovarian Cyst"
+    ],
+    correctAnswer: 1,
+    explanation: "The clinical presentation and MRI findings, including T1 hyperintensity and T2\nhypointensity with dark shading, are characteristic of an endometrioma, also known as a\n”chocolate cyst.” This condition is caused by the presence of endometrial tissue in the\novaries, often associated with dysmenorrhea and infertility.\n15\n\n💡 Quick Tip: Endometriomas are typically seen as T1 hyperintense and T2 hypointense masses on\nMRI, often with a history of menstrual pain and infertility.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page11_img26.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-28",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "Diagnosis of following Plain X-ray of abdomen:",
+    options: [
+      "Enterolith in jejunum",
+      "Calcific mediastinal lymph nodes",
+      "Horse shoe kidney with calculi",
+      "Chronic calcific pancreatitis"
+    ],
+    correctAnswer: 3,
+    explanation: "Chronic calcific pancreatitis presents with calcifications in the pancreas, which\ncan be seen on a plain X-ray. The calcifications are typically scattered within the pancreas,\noften seen in the tail or head of the pancreas.\n\n💡 Quick Tip: Chronic pancreatitis is often diagnosed by the presence of calcifications on imaging,\nwhich help differentiate it from other abdominal conditions.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-29",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "A patient has Proteus infection and now plain X-ray of abdomen was done and a\nlarge stone was shown in the urinary bladder. The stone is made up of:",
+    options: [
+      "Calcium Phosphate",
+      "Cysteine",
+      "Calcium Oxalate",
+      "Xanthine"
+    ],
+    correctAnswer: 0,
+    explanation: "Proteus infection is often associated with the formation of struvite stones, which\nare composed of magnesium ammonium phosphate. However, in this case, calcium phosphate stones are a possibility, particularly when urinary tract infections lead to altered\nurine pH, promoting the formation of these stones.\n\n💡 Quick Tip: Calcium phosphate stones are commonly associated with urinary tract infections, par-\nticularly those caused by Proteus species, which increase the pH of the urine.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-30",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "Correct statement regarding esophageal foreign body (FB):",
+    options: [
+      "Right main bronchus is one of the sites of constriction",
+      "Most common site of impaction is cricopharyngeus",
+      "Commonly seen in adults",
+      "Can’t cause mediastinitis"
+    ],
+    correctAnswer: 1,
+    explanation: "The most common site for impaction of an esophageal foreign body is the\ncricopharyngeus, as it is a physiological constriction point at the junction of the pharynx and\nesophagus. This area can also be a site of food bolus impaction.\n\n💡 Quick Tip: The cricopharyngeus muscle is a common site for esophageal foreign body impaction,\nespecially in children.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-31",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "Gastrectomy patient needs supplemental: (PART A)",
+    options: [
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin B12",
+      "Vitamin A"
+    ],
+    correctAnswer: 2,
+    explanation: "After gastrectomy, the patient loses the intrinsic factor necessary for vitamin B12\nabsorption in the small intestine, necessitating lifelong supplementation of vitamin B12 to\nprevent deficiency.\n\n💡 Quick Tip: Vitamin B12 supplementation is essential after gastrectomy, as the intrinsic factor, re-\nquired for absorption, is lost with the removal of the stomach.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-32",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "After a right limb amputation, the patient is experiencing severe phantom limb\npain. What is the mechanism behind this?",
+    options: [
+      "Projection of adjacent fibers to overlap to right sensory cortex",
+      "Projection of adjacent fibers to overlap to left sensory cortex",
+      "Expansion of right sensory cortex",
+      "Expansion of left sensory cortex"
+    ],
+    correctAnswer: 1,
+    explanation: "Phantom limb pain occurs due to the reorganization of the sensory cortex after\nlimb amputation. The adjacent areas of the sensory cortex can begin to project onto the area\nof the cortex that previously received sensory input from the amputated limb, leading to\nsensations of pain in the ”missing” limb.\n\n💡 Quick Tip: Phantom limb pain is often a result of cortical reorganization, where sensory input from\nnearby areas overlaps with the region of the brain corresponding to the missing limb.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-33",
+    subjectId: "physiology",
+    chapterId: "neet-pg-2024",
+    question: "Patient had sunburn and now takes a bath with 40-degree water and feels pain.",
+    options: [
+      "Thermal receptor: hyperalgesia",
+      "Innocuous thermal receptor: allodynia",
+      "Thermal receptor: allodynia",
+      "Innocuous thermal receptor: hyperalgesia"
+    ],
+    correctAnswer: 1,
+    explanation: "The patient is experiencing pain due to a previously non-painful stimulus (the\n40-degree water) after sunburn. This is known as allodynia, where innocuous stimuli are\nperceived as painful due to sensitization of the nociceptors after sunburn.\n\n💡 Quick Tip: Allodynia occurs when typically harmless stimuli, such as warm water after a sunburn,\ntrigger pain due to sensitized thermal receptors.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page12_img28.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-34",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "A 50-year-old female presented with dyspnea and chest pain. Which of the\nfollowing proves that she has aortic stenosis rather than aortic regurgitation?",
+    options: [
+      "Increase in myocardial oxygen consumption is seen with increased pressure work than\nvolume",
+      "Aortic stenosis causes reduced pressure at aortic valve",
+      "Workload has nothing to do with myocardial oxygen consumption",
+      "Increase in preload more than afterload than afterload"
+    ],
+    correctAnswer: 0,
+    explanation: "In aortic stenosis, there is an increase in pressure work because the left ventricle\nhas to generate higher pressures to overcome the narrowed aortic valve. This results in\nincreased myocardial oxygen consumption. In contrast, aortic regurgitation leads to volume\nwork and less pressure load on the myocardium.\n\n💡 Quick Tip: Aortic stenosis is characterized by increased pressure work, leading to increased my-\nocardial oxygen consumption, while aortic regurgitation involves volume work, which\ndoes not cause as much oxygen demand.\n19",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-35",
+    subjectId: "physiology",
+    chapterId: "neet-pg-2024",
+    question: "Taste absent in which tastebud?",
+    options: [
+      "Filliform",
+      "Foliate",
+      "Fungiform Papilla",
+      "Circumvallate"
+    ],
+    correctAnswer: 0,
+    explanation: "Filliform papillae do not contain taste buds and thus do not contribute to the\nsensation of taste. They are primarily responsible for the tactile sensation and help in the\nmanipulation of food in the mouth.\n\n💡 Quick Tip: Filliform papillae are the most numerous on the tongue but do not contain taste recep-\ntors, unlike other papillae like fungiform, foliate, and circumvallate.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-36",
+    subjectId: "physiology",
+    chapterId: "neet-pg-2024",
+    question: "Which receptor helps in the improvement of insulin resistance in DM2 with regular\nexercise and physical activity?",
+    options: [
+      "GLUT1",
+      "GLUT4",
+      "GLUT2",
+      "GLUT3"
+    ],
+    correctAnswer: 1,
+    explanation: "GLUT4 is the insulin-sensitive glucose transporter that plays a key role in\nimproving insulin resistance. Regular exercise and physical activity increase the expression\nand activity of GLUT4, enhancing glucose uptake into cells, especially muscle cells.\n20\n\n💡 Quick Tip: Exercise improves insulin sensitivity by increasing the number of GLUT4 transporters\non muscle cell membranes, facilitating glucose uptake.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-37",
+    subjectId: "physiology",
+    chapterId: "neet-pg-2024",
+    question: "A man is having difficulty sleeping during the night. He has the habit of drinking\ncoffee before bedtime. What is the role of caffeine in wakefulness?",
+    options: [
+      "Blocks adenosine action and causes wakefulness",
+      "Activates locus coeruleus and causes wakefulness",
+      "No role in maintaining wakefulness if taken 1hr before sleep",
+      "Activates histamine release and prevents sleep"
+    ],
+    correctAnswer: 0,
+    explanation: "Caffeine works as a stimulant by blocking adenosine receptors in the brain.\nAdenosine is a neurotransmitter that promotes sleep, and by blocking its action, caffeine\nhelps to promote wakefulness and reduce the sensation of fatigue.\n\n💡 Quick Tip: Caffeine blocks adenosine receptors, preventing the sleep-promoting effects of adeno-\nsine and thereby promoting wakefulness.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-38",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "RMP predominantly affected by which ion?",
+    options: [
+      "K+",
+      "Ca",
+      "Na",
+      "Cl"
+    ],
+    correctAnswer: 0,
+    explanation: "The resting membrane potential (RMP) is primarily influenced by the\nconcentration gradient of potassium ions (K+). Potassium ions are more concentrated inside the cell, and their movement out of the cell through potassium channels creates a negative\ncharge inside, setting the RMP.\n\n💡 Quick Tip: Potassium ions (K+) are crucial in establishing the resting membrane potential because\ntheir movement across the membrane contributes to the negative charge inside the cell.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-39",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "Alcoholic gait, nystagmus after RTA, which lobe of cerebellum is affected?",
+    options: [
+      "Flocculonodular",
+      "Dentate",
+      "Anterior lobe",
+      "Vermis"
+    ],
+    correctAnswer: 0,
+    explanation: "The flocculonodular lobe of the cerebellum is responsible for balance and eye\nmovements. Damage to this area, such as after alcohol consumption or a traumatic event like\na road traffic accident (RTA), can result in gait disturbance and nystagmus.\n\n💡 Quick Tip: The flocculonodular lobe plays a critical role in maintaining balance and coordinating\neye movements, and its dysfunction can lead to symptoms like nystagmus and ataxia.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-40",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "A 14-year-old boy presented with nasal mass and recurrent episodes of bleeding\nfrom the mass. Investigation of choice?",
+    options: [
+      "Plain CT",
+      "CT with contrast",
+      "X-ray Caldwell view",
+      "X-ray with Pierre view"
+    ],
+    correctAnswer: 1,
+    explanation: "A CT with contrast is the best investigation for evaluating a nasal mass with\nrecurrent bleeding. This helps to assess the extent of the lesion, its relationship with\nsurrounding structures, and whether there is any vascular involvement.\n\n💡 Quick Tip: For evaluating nasal masses with bleeding, CT with contrast provides detailed imaging\nand helps in planning surgical or therapeutic interventions.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page15_img32.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-41",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "Cochlear implant given below, identify the marked structure:",
+    options: [
+      "Internal magnet",
+      "Electrode",
+      "Receiver",
+      "Antenna"
+    ],
+    correctAnswer: 1,
+    explanation: "The electrode is the part of the cochlear implant that is inserted into the cochlea to\nstimulate the auditory nerve fibers. The other parts of the cochlear implant system (internal\nmagnet, receiver, antenna) work in conjunction with the electrode to transmit sound signals.\n\n💡 Quick Tip: The electrode in a cochlear implant is the critical component that directly stimulates the\nauditory nerve, enabling sound perception.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page15_img33.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-42",
+    subjectId: "anatomy",
+    chapterId: "neet-pg-2024",
+    question: "Which nerve supplies the external ear?",
+    options: [
+      "ATN, greater auricular, 7 and 10",
+      "Greater auricular, 7 and 10, ATN",
+      "7 and 10, ATN, greater auricular nerve",
+      "ATN, 7 and 10, GAN"
+    ],
+    correctAnswer: 3,
+    explanation: "The external ear is innervated by the auriculotemporal nerve (ATN), the greater\nauricular nerve (GAN), and the auricular branches of cranial nerves 7 (facial) and 10 (vagus).\nThese nerves provide sensory innervation to the ear.\n\n💡 Quick Tip: The external ear receives sensory innervation from multiple sources, including branches\nof the facial and vagus nerves, as well as the auriculotemporal nerve.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page16_img35.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-43",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "In head impulse test, the following finding is seen in right vestibular neuritis:",
+    options: [
+      "On rotating head to right, left saccade",
+      "On rotating head to left, right saccade",
+      "On rotating head toward right, right saccade",
+      "On rotating to the left, left saccade"
+    ],
+    correctAnswer: 0,
+    explanation: "In vestibular neuritis, there is a loss of function in one side of the vestibular\nsystem. When the head is rotated to the right, the left side compensates for the loss of input,\nresulting in a leftward saccadic movement (a corrective eye movement) to re-establish gaze.\n\n💡 Quick Tip: In vestibular neuritis, a head impulse test will show compensatory saccades in the op-\nposite direction of the impaired side.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page16_img36.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-44",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "Which of the following instrument insertions will be difficult:",
+    options: [
+      "Nasogastric Tube",
+      "LMA",
+      "Tracheostomy",
+      "Indirect Laryngoscopy"
+    ],
+    correctAnswer: 2,
+    explanation: "A tracheostomy insertion involves creating a surgical opening in the trachea,\nwhich can be more technically difficult compared to other procedures like nasogastric tube\ninsertion or LMA placement. It requires precise surgical skills and anatomical knowledge.\n\n💡 Quick Tip: Tracheostomy is a more complex procedure compared to other airway interventions and\nrequires careful consideration of anatomy and surgical technique.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page17_img38.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-45",
+    subjectId: "anatomy",
+    chapterId: "neet-pg-2024",
+    question: "A singer presents with problems in high pitch. On examination, bowing of one side\nvocal cord is seen. Which of the following muscles is affected?",
+    options: [
+      "Posterior cricoarytenoid",
+      "Lateral cricoarytenoid",
+      "Cricothyroid",
+      "Thyroarytenoid"
+    ],
+    correctAnswer: 2,
+    explanation: "The cricothyroid muscle is responsible for tensioning the vocal cords, and\ndysfunction or weakness of this muscle can lead to difficulty producing high-pitched sounds.\nBowing of the vocal cords often results from weakness of the cricothyroid muscle.\n\n💡 Quick Tip: The cricothyroid muscle controls the tension of the vocal cords and is crucial for pitch\nregulation. Weakness of this muscle can lead to difficulties in high-pitched voice pro-\nduction.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page17_img39.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-46",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "A 45-year-old male presents with breathlessness and undergoes a CT scan of the\nparanasal sinuses (PNS). Which sinus is obstructed?",
+    options: [
+      "Maxillary",
+      "Frontal",
+      "Sphenoid",
+      "Ethmoid"
+    ],
+    correctAnswer: 0,
+    explanation: "The maxillary sinuses are the most common sinuses to become obstructed in cases\nof sinusitis. This often leads to facial pain, pressure, and breathlessness due to the buildup of\nmucus and inflammation in the sinus cavities.\n\n💡 Quick Tip: Maxillary sinus obstruction is commonly associated with sinusitis and can cause symp-\ntoms like facial pain, nasal congestion, and difficulty breathing.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page18_img41.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-47",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "Intraoperatively, which stain is used to view the following lesion:",
+    options: [
+      "AgNO3",
+      "Toluidine Blue",
+      "Congo red",
+      "Methylene blue"
+    ],
+    correctAnswer: 1,
+    explanation: "Toluidine blue is a metachromatic dye that is commonly used intraoperatively for\nhighlighting mucosal lesions, particularly for identifying tumors and other abnormal tissue,\nespecially in procedures like gynecological or urological surgery.\n\n💡 Quick Tip: Toluidine blue is widely used for identifying epithelial lesions during surgeries, espe-\ncially in procedures involving the oral cavity or urogenital tract.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page19_img43.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-48",
+    subjectId: "anatomy",
+    chapterId: "neet-pg-2024",
+    question: "Gag reflex will be absent in which nerve injury?",
+    options: [
+      "5 and 10",
+      "9 and 10",
+      "10 and 12",
+      "7 and 9"
+    ],
+    correctAnswer: 1,
+    explanation: "The gag reflex is mediated by cranial nerves 9 (glossopharyngeal) and 10 (vagus).\nInjury to these nerves will result in the absence of the gag reflex. The glossopharyngeal\nnerve carries sensory information, while the vagus nerve controls the motor response.\n\n💡 Quick Tip: The gag reflex is absent in injuries involving the glossopharyngeal (IX) and vagus (X)\nnerves, as both are integral to the sensation and motor function of the reflex.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page19_img44.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-49",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "In the given X-ray, which of the following signs is seen:",
+    options: [
+      "Double ring sign",
+      "String sign",
+      "Steeple sign",
+      "Thumb sign"
+    ],
+    correctAnswer: 0,
+    explanation: "The double ring sign is characteristic of a condition such as intussusception, where one segment of the bowel telescopes into another. This sign is visible on X-ray as a concentric ring of soft tissue with a central radiolucent area.\n\n💡 Quick Tip: The double ring sign is a classic X-ray finding in intussusception, indicating the telescoping of bowel segments.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page20_img46.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-50",
+    subjectId: "physiology",
+    chapterId: "neet-pg-2024",
+    question: "Taste absent in which taste bud?",
+    options: [
+      "Filliform",
+      "Foliate",
+      "Papilla",
+      "Circumvallate"
+    ],
+    correctAnswer: 0,
+    explanation: "The filliform papillae do not contain taste buds and are responsible for the tactile\nsensation of the tongue. Unlike other papillae, such as the fungiform, circumvallate, and\nfoliate papillae, which contain taste buds, filliform papillae do not contribute to taste\nperception.\n\n💡 Quick Tip: Filliform papillae are the most numerous on the tongue but do not contain taste recep-\ntors, unlike other types like fungiform and circumvallate.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-51",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "Which of the following may be true in this patient?",
+    options: [
+      "Oesophagus is the correct site",
+      "Most commonly in adults",
+      "Mostly above cricoid",
+      "Mediastinal infection not present"
+    ],
+    correctAnswer: 0,
+    explanation: "The question implies a condition affecting the esophagus. Conditions such as\nesophageal foreign bodies or cancer most commonly affect the esophagus. The esophagus is\nthe correct site when considering conditions like achalasia, cancer, or foreign body\nimpaction.\n\n💡 Quick Tip: Esophageal conditions like foreign bodies and tumors typically affect the esophagus,\nespecially in adults, with common sites of involvement being near the cricoid.\n28",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-52",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "A patient presented with complaints of hearing loss, and the otoscopy finding\nshown. What will be the Rinne test finding?",
+    options: [
+      "True positive",
+      "True negative",
+      "False positive",
+      "False negative"
+    ],
+    correctAnswer: 1,
+    explanation: "A true negative Rinne test indicates that the air conduction is better than bone\nconduction, which is the normal finding in healthy individuals. In patients with conductive\nhearing loss, bone conduction would be better than air conduction.\n\n💡 Quick Tip: The Rinne test is used to differentiate between conductive and sensorineural hearing\nloss. A true negative result is seen in individuals with normal hearing.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-53",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "A female with mild CHL and tinnitus. The PTA is shown. What is the\ninterpretation?",
+    options: [
+      "Otosclerosis",
+      "Meniere’s disease",
+      "NIHL (Noise-Induced Hearing Loss)",
+      "None"
+    ],
+    correctAnswer: 0,
+    explanation: "Otosclerosis is a common cause of conductive hearing loss (CHL) and is often\nassociated with tinnitus. It involves abnormal bone growth in the middle ear, particularly\naffecting the stapes, which impedes sound transmission. The pure-tone audiogram (PTA)\nfindings typically show a conductive hearing loss pattern.\n29\n\n💡 Quick Tip: Otosclerosis typically presents with conductive hearing loss and tinnitus, often showing\na characteristic audiogram pattern. It is treated with surgery or hearing aids.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page20_img47.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-54",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "A nasal surgery was done in this patient, and the incision mark is shown. Which of\nthese is probably done?",
+    options: [
+      "Septoplasty",
+      "Rhinoplasty",
+      "FESS",
+      "Young’s surgery"
+    ],
+    correctAnswer: 1,
+    explanation: "Rhinoplasty is a surgical procedure performed to reshape the nose for either\ncosmetic or functional reasons. The incision marks typically reflect the approach used in\nrhinoplasty, often through the columella (the tissue between the nostrils).\n\n💡 Quick Tip: Rhinoplasty involves reshaping the nose and can be done for both cosmetic and func-\ntional purposes, with characteristic incisions on the columella.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page21_img49.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-55",
+    subjectId: "anatomy",
+    chapterId: "neet-pg-2024",
+    question: "A man meets with an RTA and comes to the emergency department with complaints\nof back pain. No neurological deficit. X-ray spine done. What will be the diagnosis?",
+    options: [
+      "Fracture of spinous process",
+      "Compressed fracture",
+      "Fracture of base of vertebrae",
+      "Chance fracture"
+    ],
+    correctAnswer: 3,
+    explanation: "A Chance fracture is a type of fracture involving the vertebral body, typically caused by flexion and distraction forces, such as those seen in a road traffic accident (RTA).\nIt involves a horizontal fracture through the vertebral body, pedicles, and posterior elements.\n\n💡 Quick Tip: Chance fractures are associated with high-energy trauma and are often seen in RTAs.\nThey can be diagnosed with lateral X-rays of the spine showing horizontal fractures.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page21_img50.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-56",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "What is the type of classification used for this fracture and its type?",
+    options: [
+      "Gartland type 3",
+      "Salter Harris type 3",
+      "Gartland type 4",
+      "Salter Harris type 4"
+    ],
+    correctAnswer: 0,
+    explanation: "The Gartland classification is used to describe supracondylar fractures of the\nhumerus in children. Type 3 fractures are completely displaced fractures, often requiring\nsurgical intervention. The classification helps guide treatment and predict complications.\n\n💡 Quick Tip: The Gartland classification is specifically used for pediatric supracondylar fractures of\nthe humerus, with type 3 fractures being completely displaced and requiring reduction\nand fixation.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page22_img52.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-57",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "A child with this deformity. He has recurrent tooth abscesses. Calcium normal,\nPhosphorus low, PTH normal, ALP high. Diagnosis is?",
+    options: [
+      "Nutritional rickets",
+      "VDDR1 (Vitamin D Dependent Rickets Type 1)",
+      "VDDR2 (Vitamin D Dependent Rickets Type 2)",
+      "Hypophosphatemic rickets"
+    ],
+    correctAnswer: 0,
+    explanation: "The child’s symptoms, with recurrent tooth abscesses, normal calcium, low\nphosphorus, normal PTH, and high ALP, are suggestive of nutritional rickets. This condition\narises from vitamin D deficiency or inadequate calcium intake, which leads to defective\nmineralization of bone.\n\n💡 Quick Tip: Nutritional rickets presents with normal calcium levels, low phosphorus, and elevated\nalkaline phosphatase, often due to vitamin D deficiency.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-58",
+    subjectId: "anatomy",
+    chapterId: "neet-pg-2024",
+    question: "A 16-year-old boy claiming to be 18 years old. Which 2 joints should be checked for\nage estimation?",
+    options: [
+      "Wrist and knee",
+      "Hip and elbow",
+      "Hip and knee",
+      "Head and shoulder"
+    ],
+    correctAnswer: 0,
+    explanation: "For age estimation, the wrist (particularly the distal radius and ulna) and knee\n(especially the growth plates) are the most reliable joints to assess for skeletal maturity.\nThese joints are often examined through X-rays to evaluate epiphyseal closure.\n\n💡 Quick Tip: The wrist and knee are the best joints to evaluate for age estimation due to the distinct\nchanges in bone maturation that occur in these areas.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-59",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "What is the device/implant shown in this following picture used for femur neck\nfracture?",
+    options: [
+      "Condylar plate",
+      "Dynamic condylar screw",
+      "Dynamic hip screw",
+      "Locking plate"
+    ],
+    correctAnswer: 2,
+    explanation: "The dynamic hip screw (DHS) is commonly used for the fixation of femoral neck\nfractures. It allows for controlled compression at the fracture site, which promotes healing\nand reduces the risk of non-union.\n\n💡 Quick Tip: The dynamic hip screw is specifically designed for femoral neck fractures, providing\nstable fixation and promoting healing through controlled compression.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-60",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "Pain in the back of the leg and thigh after lifting heavy weight. Which segment is\ninvolved?",
+    options: [
+      "L4",
+      "L5",
+      "L3",
+      "S1"
+    ],
+    correctAnswer: 1,
+    explanation: "Pain in the back of the leg and thigh, especially after lifting, is commonly\nassociated with compression or irritation of the L5 nerve root. This can cause referred pain\nalong the sciatic nerve distribution, affecting the posterior thigh and leg.\n\n💡 Quick Tip: The L5 nerve root is commonly involved in cases of sciatic nerve pain, often triggered\nby activities like lifting or bending.\n33",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page23_img54.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-61",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "Fracture of the base of the 5th metatarsal, below knee cast should be worn for:",
+    options: [
+      "6-8 weeks",
+      "2-3 weeks",
+      "16-20 weeks",
+      "3-5 weeks"
+    ],
+    correctAnswer: 0,
+    explanation: "A fracture at the base of the 5th metatarsal, particularly a Jones fracture, typically\nrequires 6-8 weeks of immobilization in a below-the-knee cast. This period allows for\nhealing of the bone and prevents complications such as non-union.\n\n💡 Quick Tip: Base of the 5th metatarsal fractures generally require 6-8 weeks of immobilization, with\nappropriate follow-up to monitor healing.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page24_img56.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-62",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "A football player had a twist of the knee and ankle, clinically no bony injury was\nappreciated. The examiner is doing the test as shown here. Which test is this?",
+    options: [
+      "Ant drawer for ACL",
+      "Post drawer for PCL",
+      "McMurray",
+      "Lachman"
+    ],
+    correctAnswer: 3,
+    explanation: "The Lachman test is a specific test for assessing the integrity of the anterior\ncruciate ligament (ACL). It is performed with the knee in a slightly flexed position and\ninvolves anterior translation of the tibia to test the ACL’s stability.\n\n💡 Quick Tip: The Lachman test is one of the most sensitive and specific tests for detecting ACL tears,\nespecially in the acute phase.\n34",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page25_img58.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-63",
+    subjectId: "anatomy",
+    chapterId: "neet-pg-2024",
+    question: "Fracture at which site will affect the longitudinal growth of the bone?",
+    options: [
+      "Epiphyseal plate",
+      "Epiphysis",
+      "Metaphysis",
+      "Diaphysis"
+    ],
+    correctAnswer: 0,
+    explanation: "The epiphyseal plate, also known as the growth plate, is responsible for the\nlongitudinal growth of the bone. Fractures involving this area can disrupt normal bone\ngrowth and lead to limb length discrepancies or deformities.\n\n💡 Quick Tip: Injuries to the epiphyseal plate can disrupt normal bone growth and lead to permanent\ndeformities or growth abnormalities.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page26_img60.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-64",
+    subjectId: "anatomy",
+    chapterId: "neet-pg-2024",
+    question: "The patient is unable to make the 'OK' sign. Which muscle is involved?",
+    options: [
+      "FDS (Flexor Digitorum Superficialis)",
+      "FDP (Flexor Digitorum Profundus)",
+      "FPL (Flexor Pollicis Longus)",
+      "Lumbricals"
+    ],
+    correctAnswer: 1,
+    explanation: "The inability to make the ”OK” sign is due to dysfunction of the Flexor Digitorum\nProfundus (FDP) muscle. The FDP is responsible for flexing the distal phalanx of the\nfingers, which is essential for forming the ”OK” sign.\n\n💡 Quick Tip: The FDP is responsible for flexion of the distal phalanx, and its weakness can lead to\ndifficulty making the ”OK” sign.\n35",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page26_img61.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-65",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "Which area is fractured in the given X-ray?",
+    options: [
+      "Tibial tuberosity",
+      "Medial epicondyle of tibia",
+      "Gerdy's tubercle",
+      "Lateral epicondyle of tibia"
+    ],
+    correctAnswer: 0,
+    explanation: "The tibial tuberosity is the bony prominence where the patellar tendon attaches.\nFractures in this area are common in adolescents, particularly after a forceful contraction of\nthe quadriceps muscle, as seen in conditions like Osgood-Schlatter disease.\n\n💡 Quick Tip: Fractures of the tibial tuberosity are often seen in active adolescents and can result from\ntrauma or repetitive stress.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page27_img63.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-66",
+    subjectId: "anatomy",
+    chapterId: "neet-pg-2024",
+    question: "Which nerve will be commonly involved if the injury occurs at the marked levels?",
+    options: [
+      "L4",
+      "L5",
+      "L2",
+      "L3"
+    ],
+    correctAnswer: 1,
+    explanation: "The L5 nerve root is most commonly involved in spinal injuries at the lower\nlumbar levels. It is responsible for sensory and motor functions in the lower extremities, and\ndamage to this root can result in foot drop, weakness of the dorsiflexors, and sensory loss in\nthe dorsum of the foot.\n\n💡 Quick Tip: L5 nerve root lesions are often associated with foot drop and weakness in the dorsiflex-\nion of the foot, and they are common in lumbar spine injuries.\n36",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-67",
+    subjectId: "anatomy",
+    chapterId: "neet-pg-2024",
+    question: "Artery passing between medial malleolus and the Achilles tendon?",
+    options: [
+      "Posterior tibial artery",
+      "Anterior tibial artery",
+      "Dorsalis pedis artery",
+      "Peroneal artery"
+    ],
+    correctAnswer: 0,
+    explanation: "The posterior tibial artery passes between the medial malleolus and the Achilles\ntendon, providing blood supply to the posterior compartment of the leg and foot. It can be\npalpated just behind the medial malleolus.\n\n💡 Quick Tip: The posterior tibial artery is an important landmark in the lower leg, commonly used to\nassess circulation in the foot.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-68",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "A child with a left femur shaft fracture, managed by plating. Which of the following\ntypes of callus formation occurs?",
+    options: [
+      "Creeping substitution",
+      "Primary callus",
+      "Secondary callus",
+      "Periosteal callus"
+    ],
+    correctAnswer: 1,
+    explanation: "Primary callus formation is the early process that begins after bone fracture, where\nthe initial callus is formed to stabilize the fracture site. This is typically seen when the\nfracture is treated with plating, where direct bone healing occurs without significant callus\nformation as in secondary healing.\n\n💡 Quick Tip: Primary callus formation occurs in fractures treated with rigid fixation, such as plating,\nallowing for direct bone healing without much secondary callus.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-69",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "What is the most likely diagnosis for the lesion shown here?",
+    options: [
+      "Sunburst pattern - Osteosarcoma",
+      "Codman triangle",
+      "Soap bubble appearance",
+      "Onion peel appearance"
+    ],
+    correctAnswer: 0,
+    explanation: "The \"sunburst\" appearance is characteristic of certain bone tumors, particularly osteosarcoma. The radiographic appearance shows spiculated or radiating bone formation, which resembles a sunburst pattern.\n\n💡 Quick Tip: The sunburst pattern is often seen in aggressive bone tumors like osteosarcoma and is a key diagnostic feature on radiographs.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page28_img65.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-70",
+    subjectId: "pathology",
+    chapterId: "neet-pg-2024",
+    question: "A diaphyseal tumor, probably small round blue cells. Which test/translocation is\nuseful for diagnosis?",
+    options: [
+      "t(11;22)",
+      "t(15;17)",
+      "t(8;14)",
+      "t(9;22)"
+    ],
+    correctAnswer: 0,
+    explanation: "The translocation T(11;22)(q24;q12) is characteristic of Ewing’s sarcoma, which\nis a common diaphyseal tumor made up of small round blue cells. This translocation is\nuseful for diagnosing Ewing’s sarcoma and differentiating it from other small round blue cell\ntumors.\n\n💡 Quick Tip: The T(11;22)(q24;q12) translocation is a hallmark of Ewing’s sarcoma, a common ma-\nlignancy in children and adolescents.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-71",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "What is the level of amputation shown here?",
+    options: [
+      "Below Knee Amputation",
+      "Above Knee Amputation",
+      "Through Knee Amputation",
+      "Syme's Amputation"
+    ],
+    correctAnswer: 0,
+    explanation: "Below knee amputation (BKA) involves the removal of the lower leg below the\nknee joint, typically preserving the knee and femur. This type of amputation is performed for\nvarious reasons, including severe trauma or infection affecting the lower leg.\n38\n\n💡 Quick Tip: Below knee amputation preserves the knee joint and is often preferred when the upper\npart of the leg is not severely affected.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-72",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "A 40-year-old RTA case is brought to the casualty and declared brought dead by the\ndoctor. The doctor informs the police official and sends the body to the mortuary.\nAutopsy in this case will be conducted on the request of:",
+    options: [
+      "PP (Public Prosecutor)",
+      "Defence lawyer",
+      "Dr.",
+      "Investigating officer"
+    ],
+    correctAnswer: 3,
+    explanation: "In cases of sudden or unexplained deaths, particularly following an accident, the\nautopsy is typically performed at the request of the investigating officer or police authorities\nto determine the cause of death. This is a legal requirement in many jurisdictions.\n\n💡 Quick Tip: An autopsy following an accident or unexplained death is generally ordered by the\ninvestigating officer or police to determine the cause of death.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page28_img66.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-73",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "A 30-year-old male dead body was brought for autopsy. The doctor notices greyish\nwhite waxy material with preserved facial features. Which is true of the following\nchange?",
+    options: [
+      "High temperature needed",
+      "Hot and dry environment needed",
+      "Starts very early after death",
+      "It is a form of body preservation by saponification of fats"
+    ],
+    correctAnswer: 3,
+    explanation: "The greyish white waxy material described is indicative of adipocere, which forms\nthrough the saponification of fats in the body. This occurs when the body is exposed to\nmoisture, and it typically happens in a cool, moist environment. It is a late-stage form of\nbody preservation and does not require high temperatures.\n\n💡 Quick Tip: Adipocere formation is a form of body preservation due to the saponification of body\nfats, usually occurring in moist conditions and over an extended period after death.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page29_img68.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-74",
+    subjectId: "anatomy",
+    chapterId: "neet-pg-2024",
+    question: "The microscopic image of the organism was analyzed in a drowning case. Which is\ncorrect about them?",
+    options: [
+      "Contains silica and chlorophyll point",
+      "Are microscopic unicellular bacteria",
+      "Present only in bone marrow",
+      "Are not resistant to acids and heat"
+    ],
+    correctAnswer: 0,
+    explanation: "In a drowning case, the microscopic organisms observed may include diatoms,\nwhich are unicellular algae that contain silica in their cell walls. The presence of silica and\nchlorophyll is a distinctive feature of diatoms, which are often used as markers in forensic\ninvestigations of drowning.\n\n💡 Quick Tip: Diatoms, which contain silica and chlorophyll, are important markers in forensic\nmedicine, especially in drowning cases, as they can be detected in the victim’s tissues\nand organs.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-75",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "The range of fire by a rifled firearm per the image:",
+    options: [
+      "Contact",
+      "Close",
+      "Distant",
+      "Cannot be opined"
+    ],
+    correctAnswer: 1,
+    explanation: "The term ”close range” typically refers to distances where the firearm is fired\nwithin a few feet of the target, usually less than 1 meter. In a forensic context, the gunshot\nresidue patterns and the wound characteristics can help determine the range of fire.\n\n💡 Quick Tip: Close-range firing can often be identified by the presence of gunshot residues on the\nvictim or target, and the spread of the wound pattern.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page30_img70.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-76",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "A pregnant female comes to a gynecologist who sends her for USG. On USG twin\npregnancy noted with about one month difference in the age of fetuses. Which is true of\nthe following?",
+    options: [
+      "Superfetation",
+      "Superfecundation",
+      "Suppositious child",
+      "Posthumous child"
+    ],
+    correctAnswer: 0,
+    explanation: "Superfetation is a rare phenomenon where two fetuses with different gestational\nages develop in the womb at different times. This occurs when a second, fertilized egg\nimplants in the uterus during an existing pregnancy, resulting in two fetuses of different ages.\n\n💡 Quick Tip: Superfetation is extremely rare and involves the fertilization of an additional egg during\nan ongoing pregnancy, leading to twins of different gestational ages.\n41",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-77",
+    subjectId: "forensic-medicine",
+    chapterId: "neet-pg-2024",
+    question: "The findings in the image are suggestive of which poisoning?",
+    options: [
+      "OPC (Organophosphorus Compounds)",
+      "Arsenic",
+      "Lead",
+      "Mercury"
+    ],
+    correctAnswer: 1,
+    explanation: "Arsenic poisoning can cause a range of symptoms including abdominal pain,\nvomiting, and a distinctive pattern of skin changes such as hyperpigmentation and scaling. It\nis often seen in cases of acute or chronic poisoning due to contaminated water or food.\n\n💡 Quick Tip: Arsenic poisoning typically presents with gastrointestinal symptoms, skin changes, and\nsometimes neurological symptoms.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page30_img71.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-78",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "Many people have consumed contaminated alcohol and present with abdominal\npain, confusion, and decreased vision. Methyl alcohol concentration detected as 20 mg\npercent. On assessment, which metabolites will be found?",
+    options: [
+      "Formic acid and lactic acid",
+      "Glycolic acid and oxalic acid",
+      "Oxalic acid and formic acid",
+      "Glyoxylic acid and formic acid"
+    ],
+    correctAnswer: 1,
+    explanation: "Methyl alcohol (methanol) is metabolized in the liver to formaldehyde and formic\nacid, which can cause metabolic acidosis. However, the ingestion of methanol also leads to\nthe accumulation of glycolic acid and oxalic acid, which contribute to the toxic effects and\nmetabolic acidosis.\n42\n\n💡 Quick Tip: In methanol poisoning, glycolic acid and oxalic acid are important metabolites to iden-\ntify, and their presence in blood can confirm the diagnosis.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-79",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "A person comes to the emergency department after consumption of a substance, the\nform and dose of which is not known to relatives. The patient shows tachypnea,\nhypotension. On metabolic assessment, high anion gap acidosis is noted with\nhypocalcemia. Diagnosis?",
+    options: [
+      "Methyl alcohol",
+      "Ethylene glycol",
+      "Dhatura",
+      "Ethyl alcohol"
+    ],
+    correctAnswer: 1,
+    explanation: "Ethylene glycol poisoning typically presents with metabolic acidosis, tachypnea,\nhypotension, and hypocalcemia. It is metabolized to glycolic acid and oxalic acid, which\ncontribute to the high anion gap acidosis. The presence of hypocalcemia is a characteristic\nfinding in ethylene glycol toxicity.\n\n💡 Quick Tip: Ethylene glycol poisoning can be life-threatening, with metabolic acidosis and hypocal-\ncemia being key diagnostic signs.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-80",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "A 36-year-old woman (G4L3P3) presents in full-term labor. Labor arrested at 8cm\ncervical dilation. Emergency C-section was done after counseling, the baby was alive\nbut intractable postpartum hemorrhage (PPH) occurred. Emergency hysterectomy was\ndone to save the life of the mother. Which is the appropriate classification?",
+    options: [
+      "C",
+      "P",
+      "T",
+      "T"
+    ],
+    correctAnswer: 0,
+    explanation: "The classification system being referred to is the obstetric classification for the\noutcome of the pregnancy. In this case, the patient has delivered a live baby but experienced\ncomplications such as intractable PPH, requiring emergency hysterectomy. The ”C” refers to\na cesarean section.\n\n💡 Quick Tip: The ”C” classification in obstetrics refers to a cesarean section, often due to complica-\ntions like arrest of labor or hemorrhage.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-81",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "A 30-year-old female abuser with suicidal tendencies is brought to the hospital.\nMydriasis, tachypnea, tachycardia observed. Diagnosis?",
+    options: [
+      "Cocaine",
+      "Morphine",
+      "Heroin",
+      "Chlorpheniramine"
+    ],
+    correctAnswer: 0,
+    explanation: "Cocaine use often leads to mydriasis (dilated pupils), tachypnea, and tachycardia.\nCocaine is a stimulant that increases sympathetic nervous system activity, which results in\nthe observed clinical signs.\n\n💡 Quick Tip: Mydriasis, tachycardia, and tachypnea are commonly seen with stimulant use such as\ncocaine. These signs help differentiate it from opioid intoxication.\n44",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page33_img75.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-82",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "MTP in a 21-year-old, 10-week pregnancy is to be done by medical methods using:",
+    options: [
+      "Intrauterine hyperosmotics",
+      "Dinoprostone",
+      "Oxytocin infusion",
+      "M + M (Methotrexate and Misoprostol)"
+    ],
+    correctAnswer: 3,
+    explanation: "Medical termination of pregnancy (MTP) in the early stages (up to 10 weeks) is\noften done using a combination of Methotrexate and Misoprostol (M + M). Methotrexate\ninhibits cell division, while Misoprostol induces uterine contractions to expel the pregnancy.\n\n💡 Quick Tip: M + M (Methotrexate and Misoprostol) is an effective medical method for early medical\ntermination of pregnancy.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-83",
+    subjectId: "surgery",
+    chapterId: "neet-pg-2024",
+    question: "A 22-week pregnancy unmarried 14-year-old girl, who is a rape victim, comes at\nyour clinic for medical termination. What is true for medical abortion?",
+    options: [
+      "MTP can be done in rape victim till 24 weeks",
+      "Only one doctor’s opinion required",
+      "Only done if risk of life",
+      "MTP can be done after permission of medical board"
+    ],
+    correctAnswer: 0,
+    explanation: "In cases of rape, medical termination of pregnancy (MTP) is legally permissible\nuntil 24 weeks of pregnancy, provided that the conditions laid out by the Medical\nTermination of Pregnancy Act are met, such as the risk to the physical or mental health of the\nwoman.\n45\n\n💡 Quick Tip: MTP in cases of rape can be done up to 24 weeks of pregnancy in India, under the\nconditions specified by the MTP Act.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-84",
+    subjectId: "forensic-medicine",
+    chapterId: "neet-pg-2024",
+    question: "This is seen in the postmortem examination of which type of asphyxia:",
+    options: [
+      "Throttling",
+      "Smothering",
+      "Hanging",
+      "Garrotting"
+    ],
+    correctAnswer: 1,
+    explanation: "Smothering occurs when the airway is blocked by a foreign object or covering,\nleading to asphyxia. Postmortem findings often include signs of airway obstruction, such as\ncongestion or edema in the respiratory tract, along with the characteristic lack of external\ninjury.\n\n💡 Quick Tip: Smothering results from the obstruction of the airway by a foreign object or material,\nand postmortem examination often reveals signs of airway congestion.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-85",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "A patient from a railway station is arrested by police and shows symptoms like\ndilated pupils, sweating, hot skin, and staggering gait. He is suspected to have\nintoxication from:",
+    options: [
+      "Dhatura",
+      "Cocaine",
+      "Alcohol",
+      "Morphine"
+    ],
+    correctAnswer: 0,
+    explanation: "Dhatura (also known as Jimson weed) contains tropane alkaloids that have\nanticholinergic properties. Symptoms of Dhatura poisoning include dilated pupils, hot dry\nskin, tachycardia, and confusion, which match the described symptoms.\n\n💡 Quick Tip: Dhatura poisoning is characterized by anticholinergic symptoms, including dilated\npupils, dry skin, and altered mental status.",
+    difficulty: "medium",
+    imageUrl: "/images/questions/page35_img78.jpg",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-86",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "In MTP at 28 weeks for congenital anomalies, whose presence is not required?",
+    options: [
+      "Obstetrician",
+      "Lawyer",
+      "Pediatrician",
+      "Sonologist"
+    ],
+    correctAnswer: 1,
+    explanation: "For medical termination of pregnancy (MTP) at 28 weeks due to congenital\nanomalies, the presence of an obstetrician, pediatrician, and sonologist is required. However,\na lawyer’s presence is not required for the procedure to proceed, though legal formalities\nmay be involved.\n\n💡 Quick Tip: MTP at 28 weeks due to congenital anomalies requires the involvement of medical pro-\nfessionals like obstetricians, pediatricians, and sonologists, but not necessarily a lawyer.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-87",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "A G5P4 woman comes for routine sonography for the first time. She has had four\ndaughters and wants a boy this time. She asks for sex determination. To be in line with\nthe above-depicted guidelines, what will you choose?",
+    options: [
+      "Will check routine ANC and sex for developmental abnormalities and do not reveal\ngender to the patient",
+      "Will check routine ANC and sex for developmental abnormalities and reveal gender to\nthe patient",
+      "Reveal gender if a girl",
+      "Check only routine ANC, do not check sex"
+    ],
+    correctAnswer: 0,
+    explanation: "According to medical ethics and legal guidelines in many countries, sex\ndetermination is prohibited unless there is a medical indication, such as detecting sex-linked\ndevelopmental abnormalities. The gender of the fetus should not be revealed unless\nnecessary for medical reasons.\n\n💡 Quick Tip: Sex determination is not permitted unless there is a valid medical reason for doing so,\nsuch as assessing for sex-linked developmental issues.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-88",
+    subjectId: "forensic-medicine",
+    chapterId: "neet-pg-2024",
+    question: "A child was born after the death of his father, and some of them claimed that the\nchild is not from his biological father. DNA fingerprinting was done to identify the\nfather, and the deceased father was found to be the biological father. This child is called\nas:",
+    options: [
+      "Posthumous child",
+      "Suppositious child",
+      "Illegitimate child",
+      "Legitimate child"
+    ],
+    correctAnswer: 0,
+    explanation: "A posthumous child is one who is conceived after the death of the biological\nfather. DNA fingerprinting can confirm the biological relationship, and in this case, it was\nfound that the child is indeed the biological offspring of the deceased father.\n48\n\n💡 Quick Tip: Posthumous children are conceived after the father’s death and are legally considered\nas his children if paternity can be confirmed.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-89",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "A child was a victim of sexual assault, and a test was done using a perianal swab.\nWhat’s the name of this test? The test showed yellow needle-shaped crystals.",
+    options: [
+      "Barberio test",
+      "Teichman test",
+      "Takayama test",
+      "Florence test"
+    ],
+    correctAnswer: 0,
+    explanation: "The Barberio test is used to detect the presence of spermatozoa in cases of sexual\nassault. The test is conducted using a perianal swab and can reveal characteristic yellow\nneedle-shaped crystals formed by spermatozoa.\n\n💡 Quick Tip: The Barberio test is specifically used to detect sperm in cases of sexual assault, and the\npresence of yellow needle-shaped crystals confirms the finding.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-90",
+    subjectId: "forensic-medicine",
+    chapterId: "neet-pg-2024",
+    question: "Which one is correct about the sequence of rigor mortis?",
+    options: [
+      "Centre to periphery",
+      "Head to foot",
+      "Foot to head",
+      "Simultaneously"
+    ],
+    correctAnswer: 1,
+    explanation: "Rigor mortis, the postmortem stiffening of muscles, typically follows a sequence\nthat starts in the head and progresses down the body towards the feet. This sequence is often\nused in forensic investigations to estimate the time of death.\n49\n\n💡 Quick Tip: Rigor mortis begins in the small muscles of the face and progresses down the body,\nending in the lower extremities.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-91",
+    subjectId: "medicine",
+    chapterId: "neet-pg-2024",
+    question: "In a sexual assault case in court, ”in camera” trial refers to:",
+    options: [
+      "Closed court proceedings",
+      "Recording of proceedings",
+      "Open court proceedings",
+      "Proceedings occurring in a different place"
+    ],
+    correctAnswer: 0,
+    explanation: "An ”in camera” trial refers to closed court proceedings, where the case is heard in\nprivate to protect the privacy of the individuals involved, particularly in sensitive matters\nsuch as sexual assault cases. These proceedings are not open to the public or the media.\n\n💡 Quick Tip: ”In camera” trials are conducted in private, especially in sensitive cases like sexual\nassault, to maintain privacy and dignity of the victims and witnesses.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-92",
+    subjectId: "anatomy",
+    chapterId: "neet-pg-2024",
+    question: "An 18-year-old male accused of rape claims he is 16 years old. Which joint X-ray\nshould be done?",
+    options: [
+      "Elbow and ankle",
+      "Knee and wrist",
+      "Shoulder and head",
+      "Hip knee"
+    ],
+    correctAnswer: 1,
+    explanation: "In order to determine the age of the individual, X-rays of the knee and wrist are\ncommonly used to assess skeletal maturity. The closure of growth plates in these joints provides important clues about the biological age of an individual, which is helpful in\nforensic age determination.\n\n💡 Quick Tip: Knee and wrist X-rays are standard for assessing skeletal maturity and estimating age,\nas these joints exhibit predictable patterns of growth plate closure.",
+    difficulty: "medium",
+    year: 2024
+  },
+  {
+    id: "neet-pg-2024-93",
+    subjectId: "physiology",
+    chapterId: "neet-pg-2024",
+    question: "Sour taste is mediated by: - PHYSIOLOGY (PART A)",
+    options: [
+      "TRPV3 Channel",
+      "Metabolic receptors",
+      "GPCR T1R1",
+      "GPCR T1R3"
+    ],
+    correctAnswer: 3,
+    explanation: "Sour taste is primarily mediated by the activation of GPCR T1R3 (G-protein\ncoupled receptor), which is involved in detecting acidic substances. The T1R family of\nreceptors, including T1R3, play a key role in the detection of basic taste sensations like\nsweetness and sourness.\n\n💡 Quick Tip: Sour taste is detected through the GPCR T1R3, which is sensitive to hydrogen ions in\nacidic solutions, triggering the sour taste sensation.\n51",
+    difficulty: "medium",
+    year: 2024
+  },
+];
+
+// Helper functions to filter questions
+export function getQuestionsByChapter(subjectId: string, chapterId: string): Question[] {
+  return sampleQuestions.filter(
+    (q) => q.subjectId === subjectId && q.chapterId === chapterId
+  );
+}
+
+export function getQuestionsBySubject(subjectId: string): Question[] {
+  return sampleQuestions.filter((q) => q.subjectId === subjectId);
+}
+
+export function getAllQuestions(): Question[] {
+  return sampleQuestions;
+}
+
+export default sampleQuestions;

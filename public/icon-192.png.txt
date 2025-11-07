@@ -1,0 +1,4 @@
+# Icon placeholder
+# To add actual icons, replace this with 192x192 PNG image
+# You can use: https://favicon.io/favicon-converter/ 
+# Or create custom icons with Preeti's name and a heart icon

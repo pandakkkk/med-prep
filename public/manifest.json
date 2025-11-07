@@ -1,0 +1,12 @@
+{
+  "name": "Preeti's NEET PG Journey 💕",
+  "short_name": "Preeti's NEET PG",
+  "description": "Your personalized NEET PG preparation journey - Made with love! 💖",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#db2777",
+  "orientation": "portrait-primary",
+  "icons": []
+}
+
