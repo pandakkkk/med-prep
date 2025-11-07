@@ -108,3 +108,77 @@
 .cursor-zoom-in:active {
   cursor: zoom-out;
 }
+
+/* iPad Air 11" Optimizations (820x1180 portrait, 1180x820 landscape) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Perfect spacing for iPad */
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* Comfortable touch targets for iPad */
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Optimal content width for readability on iPad */
+  .container {
+    max-width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  /* Better card spacing on iPad */
+  .card {
+    padding: 1.5rem;
+  }
+
+  /* Larger text for comfortable reading on iPad */
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  /* Question cards optimized for iPad */
+  .question-option {
+    padding: 1rem;
+    font-size: 1.125rem;
+  }
+}
+
+/* iPad Landscape Specific */
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  .container {
+    max-width: 95%;
+  }
+
+  /* Two-column layout works great in landscape */
+  .grid-auto-fit {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+/* Smooth scrolling for better UX on iPad */
+html {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Prevent text size adjustment on iPad orientation change */
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Better tap highlighting for iPad */
+* {
+  -webkit-tap-highlight-color: rgba(236, 72, 153, 0.2);
+}

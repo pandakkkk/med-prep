@@ -437,6 +437,8 @@ export default function StatsPage() {
           </div>
         </CardContent>
       </Card>
+      </>
+      )}
     </div>
   );
 }
