@@ -21,12 +21,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 12 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 8 },
-      { id: "upper-limb", name: "Upper Limb", totalQuestions: 0 },
-      { id: "lower-limb", name: "Lower Limb", totalQuestions: 0 },
-      { id: "thorax", name: "Thorax", totalQuestions: 0 },
-      { id: "abdomen", name: "Abdomen & Pelvis", totalQuestions: 0 },
-      { id: "head-neck", name: "Head & Neck", totalQuestions: 0 },
-      { id: "neuroanatomy", name: "Neuroanatomy", totalQuestions: 0 },
     ],
   },
   {
@@ -37,15 +31,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 6 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 8 },
-      { id: "general", name: "General Physiology", totalQuestions: 0 },
-      { id: "nerve-muscle", name: "Nerve & Muscle", totalQuestions: 0 },
-      { id: "blood", name: "Blood", totalQuestions: 0 },
-      { id: "cvs", name: "Cardiovascular System", totalQuestions: 0 },
-      { id: "respiratory", name: "Respiratory System", totalQuestions: 0 },
-      { id: "gi", name: "GI Physiology", totalQuestions: 0 },
-      { id: "renal", name: "Renal Physiology", totalQuestions: 0 },
-      { id: "endocrine", name: "Endocrine System", totalQuestions: 0 },
-      { id: "cns", name: "Central Nervous System", totalQuestions: 0 },
     ],
   },
   {
@@ -56,14 +41,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 14 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 15 },
-      { id: "proteins", name: "Proteins & Amino Acids", totalQuestions: 0 },
-      { id: "enzymes", name: "Enzymes", totalQuestions: 0 },
-      { id: "carbohydrates", name: "Carbohydrates", totalQuestions: 0 },
-      { id: "lipids", name: "Lipids", totalQuestions: 0 },
-      { id: "nucleic-acids", name: "Nucleic Acids", totalQuestions: 0 },
-      { id: "metabolism", name: "Metabolism", totalQuestions: 0 },
-      { id: "vitamins", name: "Vitamins & Minerals", totalQuestions: 0 },
-      { id: "hormones", name: "Hormones", totalQuestions: 0 },
     ],
   },
   {
@@ -74,14 +51,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 6 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 11 },
-      { id: "general-path", name: "General Pathology", totalQuestions: 0 },
-      { id: "inflammation", name: "Inflammation & Repair", totalQuestions: 0 },
-      { id: "neoplasia", name: "Neoplasia", totalQuestions: 0 },
-      { id: "hemodynamics", name: "Hemodynamic Disorders", totalQuestions: 0 },
-      { id: "cvs-path", name: "CVS Pathology", totalQuestions: 0 },
-      { id: "respiratory-path", name: "Respiratory Pathology", totalQuestions: 0 },
-      { id: "gi-path", name: "GI Pathology", totalQuestions: 0 },
-      { id: "hematology", name: "Hematology", totalQuestions: 0 },
     ],
   },
   {
@@ -92,14 +61,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 1 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 12 },
-      { id: "general-pharma", name: "General Pharmacology", totalQuestions: 0 },
-      { id: "autonomic", name: "Autonomic Nervous System", totalQuestions: 0 },
-      { id: "cns-drugs", name: "CNS Drugs", totalQuestions: 0 },
-      { id: "cvs-drugs", name: "CVS Drugs", totalQuestions: 0 },
-      { id: "antibiotics", name: "Antibiotics", totalQuestions: 0 },
-      { id: "chemotherapy", name: "Chemotherapy", totalQuestions: 0 },
-      { id: "anti-inflammatory", name: "Anti-inflammatory Drugs", totalQuestions: 0 },
-      { id: "endocrine-drugs", name: "Endocrine Drugs", totalQuestions: 0 },
     ],
   },
   {
@@ -110,12 +71,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 1 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 13 },
-      { id: "general-micro", name: "General Microbiology", totalQuestions: 0 },
-      { id: "bacteriology", name: "Bacteriology", totalQuestions: 0 },
-      { id: "virology", name: "Virology", totalQuestions: 0 },
-      { id: "mycology", name: "Mycology", totalQuestions: 0 },
-      { id: "parasitology", name: "Parasitology", totalQuestions: 0 },
-      { id: "immunology", name: "Immunology", totalQuestions: 0 },
     ],
   },
   {
@@ -126,10 +81,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 4 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 8 },
-      { id: "thanatology", name: "Thanatology", totalQuestions: 0 },
-      { id: "injuries", name: "Mechanical Injuries", totalQuestions: 0 },
-      { id: "toxicology", name: "Toxicology", totalQuestions: 0 },
-      { id: "medico-legal", name: "Medico-Legal Aspects", totalQuestions: 0 },
     ],
   },
   {
@@ -140,14 +91,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 36 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 16 },
-      { id: "cardiology", name: "Cardiology", totalQuestions: 0 },
-      { id: "pulmonology", name: "Pulmonology", totalQuestions: 0 },
-      { id: "gastroenterology", name: "Gastroenterology", totalQuestions: 0 },
-      { id: "nephrology", name: "Nephrology", totalQuestions: 0 },
-      { id: "endocrinology", name: "Endocrinology", totalQuestions: 0 },
-      { id: "hematology-med", name: "Hematology", totalQuestions: 0 },
-      { id: "infectious", name: "Infectious Diseases", totalQuestions: 0 },
-      { id: "rheumatology", name: "Rheumatology", totalQuestions: 0 },
     ],
   },
   {
@@ -158,12 +101,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 41 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 26 },
-      { id: "gi-surgery", name: "GI Surgery", totalQuestions: 0 },
-      { id: "urology", name: "Urology", totalQuestions: 0 },
-      { id: "orthopedics", name: "Orthopedics", totalQuestions: 0 },
-      { id: "neurosurgery", name: "Neurosurgery", totalQuestions: 0 },
-      { id: "ent", name: "ENT", totalQuestions: 0 },
-      { id: "ophthalmology", name: "Ophthalmology", totalQuestions: 0 },
     ],
   },
   {
@@ -174,10 +111,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 16 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 6 },
-      { id: "obstetrics", name: "Obstetrics", totalQuestions: 0 },
-      { id: "gynecology", name: "Gynecology", totalQuestions: 0 },
-      { id: "infertility", name: "Infertility", totalQuestions: 0 },
-      { id: "contraception", name: "Contraception", totalQuestions: 0 },
     ],
   },
   {
@@ -188,11 +121,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 2 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 10 },
-      { id: "neonatology", name: "Neonatology", totalQuestions: 0 },
-      { id: "growth", name: "Growth & Development", totalQuestions: 0 },
-      { id: "pediatric-infections", name: "Pediatric Infections", totalQuestions: 0 },
-      { id: "nutrition", name: "Nutrition", totalQuestions: 0 },
-      { id: "pediatric-emergencies", name: "Pediatric Emergencies", totalQuestions: 0 },
     ],
   },
   {
@@ -203,11 +131,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 3 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 15 },
-      { id: "epidemiology", name: "Epidemiology", totalQuestions: 0 },
-      { id: "biostatistics", name: "Biostatistics", totalQuestions: 0 },
-      { id: "health-programs", name: "National Health Programs", totalQuestions: 0 },
-      { id: "communicable", name: "Communicable Diseases", totalQuestions: 0 },
-      { id: "environmental", name: "Environmental Health", totalQuestions: 0 },
     ],
   },
   {
@@ -218,11 +141,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 9 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 6 },
-      { id: "trauma", name: "Trauma & Fractures", totalQuestions: 0 },
-      { id: "bone-infections", name: "Bone & Joint Infections", totalQuestions: 0 },
-      { id: "degenerative", name: "Degenerative Disorders", totalQuestions: 0 },
-      { id: "pediatric-ortho", name: "Pediatric Orthopedics", totalQuestions: 0 },
-      { id: "spine", name: "Spine Disorders", totalQuestions: 0 },
     ],
   },
   {
@@ -233,12 +151,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 5 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 8 },
-      { id: "refraction", name: "Refraction & Optics", totalQuestions: 0 },
-      { id: "lid-lacrimal", name: "Lid & Lacrimal Disorders", totalQuestions: 0 },
-      { id: "cornea", name: "Conjunctiva & Cornea", totalQuestions: 0 },
-      { id: "lens", name: "Lens & Cataract", totalQuestions: 0 },
-      { id: "glaucoma", name: "Glaucoma", totalQuestions: 0 },
-      { id: "retina", name: "Retina & Vitreous", totalQuestions: 0 },
     ],
   },
   {
@@ -249,11 +161,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 0 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 6 },
-      { id: "ear", name: "Ear Disorders", totalQuestions: 0 },
-      { id: "nose", name: "Nose & PNS", totalQuestions: 0 },
-      { id: "pharynx", name: "Pharynx & Tonsils", totalQuestions: 0 },
-      { id: "larynx", name: "Larynx", totalQuestions: 0 },
-      { id: "head-neck-ent", name: "Head & Neck", totalQuestions: 0 },
     ],
   },
   {
@@ -264,11 +171,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 4 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 3 },
-      { id: "general-anesthesia", name: "General Anesthesia", totalQuestions: 0 },
-      { id: "regional-anesthesia", name: "Regional Anesthesia", totalQuestions: 0 },
-      { id: "airway", name: "Airway Management", totalQuestions: 0 },
-      { id: "pain-management", name: "Pain Management", totalQuestions: 0 },
-      { id: "critical-care", name: "Critical Care", totalQuestions: 0 },
     ],
   },
   {
@@ -279,11 +181,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 0 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 4 },
-      { id: "imaging-techniques", name: "Imaging Techniques", totalQuestions: 0 },
-      { id: "chest-radiology", name: "Chest Radiology", totalQuestions: 0 },
-      { id: "abdominal-radiology", name: "Abdominal Radiology", totalQuestions: 0 },
-      { id: "msk-radiology", name: "Musculoskeletal Radiology", totalQuestions: 0 },
-      { id: "neuroradiology", name: "Neuroradiology", totalQuestions: 0 },
     ],
   },
   {
@@ -294,11 +191,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 0 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 4 },
-      { id: "infections-skin", name: "Skin Infections", totalQuestions: 0 },
-      { id: "inflammatory", name: "Inflammatory Dermatoses", totalQuestions: 0 },
-      { id: "autoimmune-skin", name: "Autoimmune Disorders", totalQuestions: 0 },
-      { id: "sti", name: "Sexually Transmitted Infections", totalQuestions: 0 },
-      { id: "skin-tumors", name: "Skin Tumors", totalQuestions: 0 },
     ],
   },
   {
@@ -309,11 +201,6 @@ export const subjects: Subject[] = [
     chapters: [
       { id: "neet-pg-2024", name: "🎯 NEET PG 2024", totalQuestions: 1 },
       { id: "neet-pg-2023", name: "🎯 NEET PG 2023", totalQuestions: 5 },
-      { id: "psychotic", name: "Psychotic Disorders", totalQuestions: 0 },
-      { id: "mood", name: "Mood Disorders", totalQuestions: 0 },
-      { id: "anxiety", name: "Anxiety Disorders", totalQuestions: 0 },
-      { id: "substance", name: "Substance Use Disorders", totalQuestions: 0 },
-      { id: "childhood-psych", name: "Childhood Disorders", totalQuestions: 0 },
     ],
   },
 ];

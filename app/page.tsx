@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { subjects } from "@/lib/data/subjects";
+import { preloadSubjectQuestions } from "@/lib/data/questionsV2";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
@@ -209,7 +210,10 @@ export default function Home() {
       <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {subjectsWithTotals.map((subject) => (
             <Link key={subject.id} href={`/subjects/${subject.id}`} className="block">
-              <Card className="group h-full transition-all active:scale-95 hover:shadow-xl sm:hover:scale-105 cursor-pointer border-2 border-pink-200 hover:border-purple-400 touch-manipulation bg-gradient-to-br from-white via-pink-50 to-purple-50 hover:from-pink-50 hover:via-purple-50 hover:to-pink-100">
+              <Card 
+                className="group h-full transition-all active:scale-95 hover:shadow-xl sm:hover:scale-105 cursor-pointer border-2 border-pink-200 hover:border-purple-400 touch-manipulation bg-gradient-to-br from-white via-pink-50 to-purple-50 hover:from-pink-50 hover:via-purple-50 hover:to-pink-100"
+                onMouseEnter={() => preloadSubjectQuestions(subject.id)}
+              >
                 <CardHeader className="p-4 sm:p-6">
                   <div className="mb-2 sm:mb-3 flex items-start justify-between gap-2">
                     <div className={`rounded-xl ${subject.color} p-2.5 sm:p-3 text-2xl sm:text-3xl flex-shrink-0 shadow-md group-hover:shadow-lg transition-shadow`}>

@@ -283,10 +283,10 @@ export default function ReviewPage() {
                     {/* Link to review explanation */}
                     <div className="mt-4 pt-4 border-t border-gray-100">
                       <Link
-                        href={`/subjects/${aq.subjectId}/${aq.chapterId}?question=${question.id}`}
+                        href={`/subjects/${aq.subjectId}/practice`}
                         className="inline-flex items-center gap-2 text-xs sm:text-sm text-pink-600 hover:text-pink-700 font-medium transition-colors touch-manipulation active:scale-95"
                       >
-                        📖 View Detailed Explanation →
+                        📖 Practice More Questions →
                       </Link>
                     </div>
                   </div>
