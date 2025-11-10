@@ -20,8 +20,8 @@ export async function loadAllQuestions(): Promise<Question[]> {
   
   for (const subject of AVAILABLE_SUBJECTS) {
     try {
-      const module = await import(`./${subject}.ts`);
-      allQuestions.push(...(module.questions || module.default || []));
+      const loadedModule = await import(`./${subject}.ts`);
+      allQuestions.push(...(loadedModule.questions || loadedModule.default || []));
     } catch (error) {
       console.error(`Failed to load questions for ${subject}:`, error);
     }

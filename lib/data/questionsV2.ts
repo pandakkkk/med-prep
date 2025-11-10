@@ -72,9 +72,9 @@ async function loadSubjectQuestions(subjectId: string): Promise<Question[]> {
 async function fetchSubjectQuestions(subjectId: string): Promise<Question[]> {
   // Strategy 1: Try loading from subject-specific TS file
   try {
-    const module = await import(`./questions/${subjectId}.ts`);
+    const loadedModule = await import(`./questions/${subjectId}.ts`);
     usingSplitFiles = true;
-    return module.default || module.questions || module.sampleQuestions || [];
+    return loadedModule.default || loadedModule.questions || loadedModule.sampleQuestions || [];
   } catch (tsError) {
     // Strategy 2: Try loading from JSON file
     try {
@@ -186,5 +186,5 @@ export function isLoading(subjectId: string): boolean {
 }
 
 // Export for backward compatibility
-export { Question } from './types';
+export type { Question } from './types';
 

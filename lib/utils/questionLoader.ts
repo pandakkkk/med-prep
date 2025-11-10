@@ -64,16 +64,16 @@ async function fetchQuestionsBySubject(subjectId: string): Promise<Question[]> {
 async function loadFromModule(subjectId: string): Promise<Question[]> {
   try {
     // Try to dynamically import the subject-specific file
-    const module = await import(`../data/questions/${subjectId}.ts`);
-    return module.default || module.questions || [];
+    const loadedModule = await import(`../data/questions/${subjectId}.ts`);
+    return loadedModule.default || loadedModule.questions || [];
   } catch (error) {
     console.error(`Failed to load questions for subject: ${subjectId}`, error);
     
     // Final fallback: Try loading from main questions file
     try {
-      const mainModule = await import('../data/questions');
-      const allQuestions = mainModule.questions || [];
-      return allQuestions.filter((q: Question) => q.subject === subjectId);
+      const loadedMainModule = await import('../data/questions');
+      const allQuestions = loadedMainModule.sampleQuestions || loadedMainModule.default || [];
+      return allQuestions.filter((q: Question) => q.subjectId === subjectId);
     } catch (fallbackError) {
       console.error('Failed to load questions from fallback', fallbackError);
       return [];
@@ -89,7 +89,7 @@ export async function loadQuestionsByChapter(
   chapterId: string
 ): Promise<Question[]> {
   const allSubjectQuestions = await loadQuestionsBySubject(subjectId);
-  return allSubjectQuestions.filter(q => q.chapter === chapterId);
+  return allSubjectQuestions.filter(q => q.chapterId === chapterId);
 }
 
 /**
@@ -133,8 +133,8 @@ export function getQuestionCacheStats() {
  */
 export async function loadAllQuestions(): Promise<Question[]> {
   // Import the main questions file
-  const module = await import('../data/questions');
-  return module.questions || [];
+  const loadedModule = await import('../data/questions');
+  return loadedModule.sampleQuestions || loadedModule.default || [];
 }
 
 /**

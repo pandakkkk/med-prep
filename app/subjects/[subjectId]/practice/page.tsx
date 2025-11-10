@@ -643,7 +643,7 @@ export default function SubjectPracticePage() {
         <CardHeader>
           <div className="flex items-center justify-between mb-2">
             <Badge variant="outline" className="text-xs">
-              {currentQuestion.chapter || "Question"}
+              {currentQuestion.chapterId || "Question"}
             </Badge>
             <Badge className="bg-gradient-to-r from-purple-500 to-pink-500 text-white">
               {currentQuestion.difficulty || "Medium"}
