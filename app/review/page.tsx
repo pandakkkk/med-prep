@@ -6,6 +6,29 @@ import { ChevronLeft, CheckCircle2, XCircle } from "lucide-react";
 import { subjects } from "@/lib/data/subjects";
 import { getAllQuestions } from "@/lib/data/questions";
 
+// Utility function to clean text - removes extra spaces and normalizes whitespace
+const cleanText = (text: string): string => {
+  if (!text) return text;
+  
+  return text
+    // Remove control characters that might appear as unwanted characters
+    .replace(/[\x00-\x08\x0B-\x0C\x0E-\x1F\x7F]/g, '')
+    // Replace newlines with spaces (preserves readability)
+    .replace(/\n+/g, ' ')
+    // Replace carriage returns
+    .replace(/\r+/g, ' ')
+    // Replace tabs with spaces
+    .replace(/\t+/g, ' ')
+    // Replace various Unicode spaces (non-breaking, zero-width, etc.) with regular space
+    .replace(/[\u00A0\u1680\u2000-\u200B\u202F\u205F\u3000\uFEFF]/g, ' ')
+    // Replace multiple consecutive spaces with single space
+    .replace(/ +/g, ' ')
+    // Remove spaces before punctuation (optional - helps with formatting)
+    .replace(/\s+([.,;:!?])/g, '$1')
+    // Trim leading and trailing whitespace
+    .trim();
+};
+
 interface AnsweredQuestion {
   questionId: string;
   subjectId: string;
@@ -222,16 +245,16 @@ export default function ReviewPage() {
                       </div>
                     </div>
 
-                    {/* Question and Answers in 2-column layout on tablet/desktop */}
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                      {/* Left: Question */}
+                    {/* Question and Answers in vertical layout */}
+                    <div className="space-y-4">
+                      {/* Question */}
                       <div>
                         <h3 className="text-sm sm:text-base font-medium text-gray-800 mb-4 leading-relaxed">
-                          {question.question}
+                          {cleanText(question.question)}
                         </h3>
                       </div>
 
-                      {/* Right: Answer Options */}
+                      {/* Answer Options */}
                       <div className="space-y-2">
                         {question.options.map((option: string, optionIndex: number) => {
                           const isSelected = optionIndex === aq.selectedAnswer;
@@ -267,7 +290,7 @@ export default function ReviewPage() {
                                 <span className="font-semibold flex-shrink-0 mt-0.5">
                                   {String.fromCharCode(65 + optionIndex)}.
                                 </span>
-                                <span className="flex-1">{option}</span>
+                                <span className="flex-1">{cleanText(option)}</span>
                                 {icon && (
                                   <span className="flex-shrink-0 font-bold text-base">
                                     {icon}
